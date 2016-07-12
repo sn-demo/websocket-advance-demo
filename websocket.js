@@ -5,7 +5,8 @@ module.exports = function websocket(server) {
 	var io = socketIo(server);
 	var Monitor = require('./websocket/Monitor') 
 	var monitor = new Monitor(io)
-	monitor.updateEvent()
+	monitor.updateEvent();
+	monitor.initData();
 	io.on('connection', socket=>{ 
 		monitor.loginEvent(socket)
 		monitor.logoutEvent(socket)
