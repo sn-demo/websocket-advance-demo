@@ -1,6 +1,8 @@
 ## 实时监控系统Demo后端
 先看下screenshot
 ![](https://raw.githubusercontent.com/sn-demo/websocket-advance-demo/master/uploads/r.gif)
+## 原理图
+![](https://raw.githubusercontent.com/sn-demo/websocket-advance-demo/master/uploads/schematic.jpg)
 ## 安装rethinkdb
 这里不多说，请参考[官网](http://www.rethinkdb.com/docs/install/)
 ## 导入数据
