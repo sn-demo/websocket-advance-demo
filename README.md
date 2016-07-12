@@ -1,6 +1,11 @@
 ## 实时监控系统Demo后端
 先看下screenshot
+
 ![](https://raw.githubusercontent.com/sn-demo/websocket-advance-demo/master/uploads/r.gif)
+
+下面的图是插入上万条数据后前面的情况，后面就会卡，数据多了嘛,现实中没有更新这么频繁的数据操作，即使有这个就实时系统目前就不合适了。
+
+![](https://raw.githubusercontent.com/sn-demo/websocket-advance-demo/master/uploads/r2.gif)
 ## 原理图
 ![](https://raw.githubusercontent.com/sn-demo/websocket-advance-demo/master/uploads/schematic.jpg)
 ## 安装rethinkdb
