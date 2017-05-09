@@ -1,12 +1,13 @@
 'use strict';
-import rethinkdbdash from 'rethinkdbdash'
-import db_config from '../config/thinkdb.config'
+var MongoClient = require('mongodb').MongoClient;
+var url = 'mongodb://localhost/cmdb';
 
 module.exports = async function(ctx, next){
 	var data = { };
-	let r = rethinkdbdash(db_config) 
-	data = await r.table("foods");
-	r.getPoolMaster().drain();
+  var db = await MongoClient.connect(url);
+  var servers = db.collection("servers");
+  data = await servers.find().toArray();
 	ctx.body = data;
+  db.close();
 }
 

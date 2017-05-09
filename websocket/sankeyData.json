@@ -1,0 +1,3571 @@
+{
+    "data": [
+        {
+            "other_recv": [],
+            "mode_id": 0,
+            "5min_conn": 32,
+            "pid": 23224,
+            "updated_at": "2017-04-28 10:03:53",
+            "public_ip": [
+                "122.226.181.29",
+                "60.12.69.110"
+            ],
+            "area_list": 2,
+            "private_ip": [
+                "192.168.2.215"
+            ],
+            "queues_ave": 1,
+            "upload_width": 300,
+            "uptime": 822525,
+            "queues_95peak": 1,
+            "area": "台州",
+            "cid_area": "0-4",
+            "bytes_in": 40710758192,
+            "hostname": "tz-relay7",
+            "bw_in": 2537824,
+            "upload_connections": 1500,
+            "port": 1970,
+            "cid_id": 1,
+            "ip": [
+                "122.226.181.29",
+                "60.12.69.110",
+                "192.168.2.215"
+            ],
+            "sort": 0,
+            "timeout": false,
+            "timestamp": 1493345033,
+            "bytes_out": 99839651512,
+            "down_conn": 111,
+            "other_send": [],
+            "download_width": 200,
+            "address": "tz-relay7:1970",
+            "down_host": [
+                "zj-relay2:1935",
+                "fs-relay7:1935",
+                "tz-relay9:1935",
+                ":1935"
+            ],
+            "viwers": 0,
+            "naccepted": 4168,
+            "isp": "双线",
+            "bw_out": 6484032,
+            "up_conn": 38,
+            "mode": "跨网中转0-4-sjz->fs",
+            "download_connections": 1000,
+            "up_host": [
+                "sjz-relay7:1935",
+                ":1935",
+                "sjz-relay5:1935"
+            ],
+            "queues_peak": 1,
+            "recv_relays": [
+                {
+                    "bytes_in": 6177808920,
+                    "hostname": "61.55.189.152",
+                    "bw_in": 2552696,
+                    "up_conn": 38,
+                    "send_time_95peak": 250,
+                    "address": "61.55.189.152:1935",
+                    "send_time_ave": 227,
+                    "port": 1935,
+                    "send_time_peak": 252
+                }
+            ],
+            "_id": null,
+            "send_relays": [
+                {
+                    "queues_95peak": 1,
+                    "hostname": "zj-relay2",
+                    "port": 1935,
+                    "down_conn": 37,
+                    "is_lan": false,
+                    "address": "zj-relay2:1935",
+                    "queues_peak": 1,
+                    "queues_ave": 1
+                },
+                {
+                    "queues_95peak": 1,
+                    "hostname": "fs-sto20",
+                    "port": 1935,
+                    "down_conn": 37,
+                    "is_lan": false,
+                    "address": "fs-sto20:1935",
+                    "queues_peak": 1,
+                    "queues_ave": 1
+                },
+                {
+                    "queues_95peak": 1,
+                    "hostname": "tz-relay9",
+                    "port": 1935,
+                    "down_conn": 37,
+                    "is_lan": true,
+                    "address": "tz-relay9:1935",
+                    "queues_peak": 1,
+                    "queues_ave": 1
+                }
+            ],
+            "staturl": "http://122.226.181.29:8082/stat"
+        },
+        {
+            "other_recv": {
+                "bytes_in": 141412501602,
+                "bw_in": 159700048,
+                "up_conn": 620,
+                "send_time_95peak": 1274,
+                "send_time_ave": 368,
+                "send_time_peak": 5435
+            },
+            "mode_id": 0,
+            "5min_conn": 28,
+            "pid": 26682,
+            "updated_at": "2017-04-28 10:03:46",
+            "public_ip": [
+                "183.57.151.129"
+            ],
+            "area_list": 3,
+            "private_ip": [
+                "192.168.2.249"
+            ],
+            "queues_ave": 1,
+            "upload_width": 300,
+            "uptime": 760444,
+            "queues_95peak": 1,
+            "area": "佛山",
+            "cid_area": "0-4",
+            "bytes_in": 9903285441444,
+            "hostname": "fs-sto18",
+            "bw_in": 159896888,
+            "upload_connections": 300,
+            "port": 1935,
+            "cid_id": 1,
+            "ip": [
+                "183.57.151.129",
+                "192.168.2.249"
+            ],
+            "sort": 1,
+            "timeout": false,
+            "timestamp": 1493345026,
+            "bytes_out": 120275604400,
+            "down_conn": 3,
+            "other_send": {
+                "down_conn": 3,
+                "queues_peak": 1,
+                "queues_ave": 1,
+                "queues_95peak": 1
+            },
+            "download_width": 100,
+            "address": "fs-sto18:1935",
+            "down_host": [
+                "zj-relay2:1935",
+                "fs-relay7:1935",
+                "tz-relay7:1960",
+                "客户端:1935",
+                ":1935"
+            ],
+            "viwers": 3,
+            "naccepted": 791398,
+            "isp": "电信",
+            "bw_out": 1667928,
+            "up_conn": 620,
+            "mode": "E0源转发",
+            "download_connections": 100,
+            "up_host": [
+                "客户端:1935",
+                ":1935"
+            ],
+            "queues_peak": 1,
+            "recv_relays": [],
+            "_id": null,
+            "send_relays": [],
+            "staturl": "http://183.57.151.129:8080/stat"
+        },
+        {
+            "other_recv": [],
+            "mode_id": 0,
+            "5min_conn": 53,
+            "pid": 18085,
+            "updated_at": "2017-04-28 10:03:50",
+            "public_ip": [
+                "180.97.208.146"
+            ],
+            "area_list": 0,
+            "private_ip": [
+                ""
+            ],
+            "queues_ave": 1,
+            "upload_width": 500,
+            "uptime": 824992,
+            "queues_95peak": 1,
+            "area": "zj",
+            "cid_area": "0-4",
+            "bytes_in": 230967097144,
+            "hostname": "zj-relay2",
+            "bw_in": 32600488,
+            "upload_connections": 1000,
+            "port": 1935,
+            "cid_id": 1,
+            "ip": [
+                "180.97.208.146",
+                ""
+            ],
+            "sort": 2,
+            "timeout": false,
+            "timestamp": 1493345030,
+            "bytes_out": 22119323690,
+            "down_conn": 2,
+            "other_send": {
+                "down_conn": 2,
+                "queues_peak": 1,
+                "queues_ave": 1,
+                "queues_95peak": 1
+            },
+            "download_width": 500,
+            "address": "zj-relay2:1935",
+            "down_host": [
+                "客户端:1935",
+                ":1935"
+            ],
+            "viwers": 2,
+            "naccepted": 60345,
+            "isp": "电信",
+            "bw_out": 465312,
+            "up_conn": 528,
+            "mode": "外网边缘",
+            "download_connections": 1000,
+            "up_host": [
+                "fs-relay1:1935",
+                "tz-relay7:1970",
+                ":1935",
+                "fs-relay3:1935"
+            ],
+            "queues_peak": 1,
+            "recv_relays": [
+                {
+                    "bytes_in": 11075818914,
+                    "hostname": "fs-sto16",
+                    "bw_in": 18187424,
+                    "up_conn": 246,
+                    "send_time_95peak": 239,
+                    "address": "fs-sto16:1935",
+                    "send_time_ave": 246,
+                    "port": 1935,
+                    "send_time_peak": 4456
+                },
+                {
+                    "bytes_in": 2192672592,
+                    "hostname": "tz-relay7",
+                    "bw_in": 2937848,
+                    "up_conn": 37,
+                    "send_time_95peak": 176,
+                    "address": "tz-relay7:1970",
+                    "send_time_ave": 133,
+                    "port": 1970,
+                    "send_time_peak": 178
+                },
+                {
+                    "bytes_in": 9840972991,
+                    "hostname": "tz-relay4",
+                    "bw_in": 12212328,
+                    "up_conn": 197,
+                    "send_time_95peak": 179,
+                    "address": "tz-relay4:1935",
+                    "send_time_ave": 138,
+                    "port": 1935,
+                    "send_time_peak": 228
+                },
+                {
+                    "bytes_in": 1758797057,
+                    "hostname": "cs-hhy-a2-05-sto3",
+                    "bw_in": 3682120,
+                    "up_conn": 48,
+                    "send_time_95peak": 189,
+                    "address": "cs-hhy-a2-05-sto3:1935",
+                    "send_time_ave": 169,
+                    "port": 1935,
+                    "send_time_peak": 191
+                }
+            ],
+            "_id": null,
+            "send_relays": [],
+            "staturl": "http://180.97.208.146:8080/stat"
+        },
+        {
+            "other_recv": [],
+            "mode_id": 0,
+            "5min_conn": 100,
+            "pid": 20563,
+            "updated_at": "2017-04-28 10:03:50",
+            "public_ip": [
+                "122.226.181.29",
+                "60.12.69.110"
+            ],
+            "area_list": 2,
+            "private_ip": [
+                "192.168.2.215"
+            ],
+            "queues_ave": 1,
+            "upload_width": 300,
+            "uptime": 823352,
+            "queues_95peak": 1,
+            "area": "台州",
+            "cid_area": "0-4",
+            "bytes_in": 92497514728,
+            "hostname": "tz-relay7",
+            "bw_in": 16048816,
+            "upload_connections": 1500,
+            "port": 1960,
+            "cid_id": 1,
+            "ip": [
+                "122.226.181.29",
+                "60.12.69.110",
+                "192.168.2.215"
+            ],
+            "sort": 3,
+            "timeout": false,
+            "timestamp": 1493345030,
+            "bytes_out": 246616113649,
+            "down_conn": 738,
+            "other_send": [],
+            "download_width": 200,
+            "address": "tz-relay7:1960",
+            "down_host": [
+                "ty-relay1:1935",
+                "tz-relay9:1935",
+                "sjz-relay8:1935",
+                ":1935"
+            ],
+            "viwers": 0,
+            "naccepted": 19823,
+            "isp": "双线",
+            "bw_out": 47357648,
+            "up_conn": 246,
+            "mode": "跨网中转0-4-fs->sjz",
+            "download_connections": 1000,
+            "up_host": [
+                "fs-relay1:1935",
+                ":1935",
+                "fs-relay3:1935"
+            ],
+            "queues_peak": 1,
+            "recv_relays": [
+                {
+                    "bytes_in": 10762579302,
+                    "hostname": "fs-sto16",
+                    "bw_in": 18387776,
+                    "up_conn": 246,
+                    "send_time_95peak": 266,
+                    "address": "fs-sto16:1935",
+                    "send_time_ave": 306,
+                    "port": 1935,
+                    "send_time_peak": 7753
+                }
+            ],
+            "_id": null,
+            "send_relays": [
+                {
+                    "queues_95peak": 1,
+                    "hostname": "sjz-relay8",
+                    "port": 1935,
+                    "down_conn": 246,
+                    "is_lan": false,
+                    "address": "sjz-relay8:1935",
+                    "queues_peak": 1,
+                    "queues_ave": 1
+                },
+                {
+                    "queues_95peak": 1,
+                    "hostname": "tz-relay9",
+                    "port": 1935,
+                    "down_conn": 246,
+                    "is_lan": true,
+                    "address": "tz-relay9:1935",
+                    "queues_peak": 1,
+                    "queues_ave": 1
+                },
+                {
+                    "queues_95peak": 1,
+                    "hostname": "ty-relay1",
+                    "port": 1935,
+                    "down_conn": 246,
+                    "is_lan": false,
+                    "address": "ty-relay1:1935",
+                    "queues_peak": 1,
+                    "queues_ave": 1
+                }
+            ],
+            "staturl": "http://122.226.181.29:8081/stat"
+        },
+        {
+            "other_recv": {
+                "bytes_in": 61989702939,
+                "bw_in": 53478200,
+                "up_conn": 197,
+                "send_time_95peak": 2741,
+                "send_time_ave": 497,
+                "send_time_peak": 6538
+            },
+            "mode_id": 0,
+            "5min_conn": 95,
+            "pid": 18568,
+            "updated_at": "2017-04-28 10:03:45",
+            "public_ip": [
+                "122.226.181.26",
+                "60.12.69.99"
+            ],
+            "area_list": 2,
+            "private_ip": [
+                "192.168.2.212"
+            ],
+            "queues_ave": 1,
+            "upload_width": 300,
+            "uptime": 759692,
+            "queues_95peak": 1,
+            "area": "台州",
+            "cid_area": "0-4",
+            "bytes_in": 459642414636,
+            "hostname": "tz-relay4",
+            "bw_in": 54229296,
+            "upload_connections": 1500,
+            "port": 1935,
+            "cid_id": 1,
+            "ip": [
+                "122.226.181.26",
+                "60.12.69.99",
+                "192.168.2.212"
+            ],
+            "sort": 4,
+            "timeout": false,
+            "timestamp": 1493345025,
+            "bytes_out": 447502037859,
+            "down_conn": 985,
+            "other_send": [],
+            "download_width": 100,
+            "address": "tz-relay4:1935",
+            "down_host": [
+                "zj-relay2:1935",
+                "ty-relay1:1935",
+                ":1935",
+                "sjz-relay8:1935",
+                "fs-relay7:1935",
+                "tz-relay9:1935",
+                "客户端:1935"
+            ],
+            "viwers": 0,
+            "naccepted": 42601,
+            "isp": "双线",
+            "bw_out": 57289872,
+            "up_conn": 197,
+            "mode": "D0源转发",
+            "download_connections": 500,
+            "up_host": [
+                "客户端:1935",
+                ":1935"
+            ],
+            "queues_peak": 1,
+            "recv_relays": [],
+            "_id": null,
+            "send_relays": [
+                {
+                    "queues_95peak": 1,
+                    "hostname": "zj-relay2",
+                    "port": 1935,
+                    "down_conn": 197,
+                    "is_lan": false,
+                    "address": "zj-relay2:1935",
+                    "queues_peak": 1,
+                    "queues_ave": 1
+                },
+                {
+                    "queues_95peak": 1,
+                    "hostname": "sjz-relay8",
+                    "port": 1935,
+                    "down_conn": 197,
+                    "is_lan": false,
+                    "address": "sjz-relay8:1935",
+                    "queues_peak": 1,
+                    "queues_ave": 1
+                },
+                {
+                    "queues_95peak": 1,
+                    "hostname": "tz-relay9",
+                    "port": 1935,
+                    "down_conn": 197,
+                    "is_lan": true,
+                    "address": "tz-relay9:1935",
+                    "queues_peak": 1,
+                    "queues_ave": 1
+                },
+                {
+                    "queues_95peak": 1,
+                    "hostname": "ty-relay1",
+                    "port": 1935,
+                    "down_conn": 197,
+                    "is_lan": false,
+                    "address": "ty-relay1:1935",
+                    "queues_peak": 1,
+                    "queues_ave": 1
+                },
+                {
+                    "queues_95peak": 1,
+                    "hostname": "fs-sto20",
+                    "port": 1935,
+                    "down_conn": 197,
+                    "is_lan": false,
+                    "address": "fs-sto20:1935",
+                    "queues_peak": 1,
+                    "queues_ave": 1
+                }
+            ],
+            "staturl": "http://122.226.181.26:8080/stat"
+        },
+        {
+            "other_recv": {
+                "bytes_in": 70005426866,
+                "bw_in": 73096624,
+                "up_conn": 246,
+                "send_time_95peak": 2256,
+                "send_time_ave": 490,
+                "send_time_peak": 8969
+            },
+            "mode_id": 0,
+            "5min_conn": 99,
+            "pid": 14872,
+            "updated_at": "2017-04-28 10:03:50",
+            "public_ip": [
+                "183.57.151.104"
+            ],
+            "area_list": 3,
+            "private_ip": [
+                "192.168.2.243"
+            ],
+            "queues_ave": 1,
+            "upload_width": 300,
+            "uptime": 760444,
+            "queues_95peak": 1,
+            "area": "佛山",
+            "cid_area": "0-4",
+            "bytes_in": 394523141720,
+            "hostname": "fs-sto16",
+            "bw_in": 73458040,
+            "upload_connections": 1500,
+            "port": 1935,
+            "cid_id": 1,
+            "ip": [
+                "183.57.151.104",
+                "192.168.2.243"
+            ],
+            "sort": 5,
+            "timeout": false,
+            "timestamp": 1493345030,
+            "bytes_out": 255246218670,
+            "down_conn": 738,
+            "other_send": [],
+            "download_width": 100,
+            "address": "fs-sto16:1935",
+            "down_host": [
+                "zj-relay2:1935",
+                "fs-relay7:1935",
+                "tz-relay7:1960",
+                "客户端:1935",
+                ":1935"
+            ],
+            "viwers": 0,
+            "naccepted": 57647,
+            "isp": "电信",
+            "bw_out": 46996848,
+            "up_conn": 246,
+            "mode": "D0源转发",
+            "download_connections": 500,
+            "up_host": [
+                "客户端:1935",
+                ":1935"
+            ],
+            "queues_peak": 1,
+            "recv_relays": [],
+            "_id": null,
+            "send_relays": [
+                {
+                    "queues_95peak": 1,
+                    "hostname": "zj-relay2",
+                    "port": 1935,
+                    "down_conn": 246,
+                    "is_lan": false,
+                    "address": "zj-relay2:1935",
+                    "queues_peak": 1,
+                    "queues_ave": 1
+                },
+                {
+                    "queues_95peak": 1,
+                    "hostname": "fs-sto20",
+                    "port": 1935,
+                    "down_conn": 246,
+                    "is_lan": true,
+                    "address": "fs-sto20:1935",
+                    "queues_peak": 1,
+                    "queues_ave": 1
+                },
+                {
+                    "queues_95peak": 1,
+                    "hostname": "tz-relay7",
+                    "port": 1960,
+                    "down_conn": 246,
+                    "is_lan": false,
+                    "address": "tz-relay7:1960",
+                    "queues_peak": 1,
+                    "queues_ave": 1
+                }
+            ],
+            "staturl": "http://183.57.151.104:8080/stat"
+        },
+        {
+            "other_recv": {
+                "bytes_in": 115742267852,
+                "bw_in": 119246016,
+                "up_conn": 480,
+                "send_time_95peak": 2191,
+                "send_time_ave": 489,
+                "send_time_peak": 7819
+            },
+            "mode_id": 0,
+            "5min_conn": 28,
+            "pid": 16726,
+            "updated_at": "2017-04-28 10:03:41",
+            "public_ip": [
+                "61.55.189.144"
+            ],
+            "area_list": 1,
+            "private_ip": [
+                "192.168.2.215"
+            ],
+            "queues_ave": 1,
+            "upload_width": 300,
+            "uptime": 760035,
+            "queues_95peak": 1,
+            "area": "石家庄",
+            "cid_area": "0-4",
+            "bytes_in": 6854565944098,
+            "hostname": "sjz-relay6",
+            "bw_in": 118877488,
+            "upload_connections": 300,
+            "port": 1935,
+            "cid_id": 1,
+            "ip": [
+                "61.55.189.144",
+                "192.168.2.215"
+            ],
+            "sort": 6,
+            "timeout": false,
+            "timestamp": 1493345021,
+            "bytes_out": 111999322408,
+            "down_conn": 6,
+            "other_send": {
+                "down_conn": 6,
+                "queues_peak": 1,
+                "queues_ave": 1,
+                "queues_95peak": 1
+            },
+            "download_width": 100,
+            "address": "sjz-relay6:1935",
+            "down_host": [
+                "sjz-relay8:1935",
+                "tz-relay7:1970",
+                "客户端:1935",
+                ":1935",
+                "ty-relay1:1935"
+            ],
+            "viwers": 6,
+            "naccepted": 201510,
+            "isp": "联通",
+            "bw_out": 3613360,
+            "up_conn": 480,
+            "mode": "E0源转发",
+            "download_connections": 100,
+            "up_host": [
+                "客户端:1935",
+                ":1935"
+            ],
+            "queues_peak": 1,
+            "recv_relays": [],
+            "_id": null,
+            "send_relays": [],
+            "staturl": "http://61.55.189.144:8080/stat"
+        },
+        {
+            "hostname": "ty-relay1",
+            "mode_id": 0,
+            "5min_conn": 55,
+            "pid": 9624,
+            "updated_at": "2017-04-28 10:03:41",
+            "public_ip": [
+                "221.204.171.5"
+            ],
+            "area_list": 0,
+            "private_ip": [
+                ""
+            ],
+            "queues_ave": 106,
+            "upload_width": 500,
+            "uptime": 824992,
+            "queues_95peak": 211,
+            "area": "ty",
+            "cid_area": "0-4",
+            "bytes_in": 227307778280,
+            "other_recv": [],
+            "bw_in": 33565512,
+            "upload_connections": 1000,
+            "port": 1935,
+            "cid_id": 1,
+            "ip": [
+                "221.204.171.5",
+                ""
+            ],
+            "sort": 7,
+            "timeout": false,
+            "timestamp": 1493345021,
+            "bytes_out": 6867346355,
+            "down_conn": 2,
+            "other_send": {
+                "down_conn": 2,
+                "queues_peak": 211,
+                "queues_ave": 106,
+                "queues_95peak": 211
+            },
+            "download_width": 500,
+            "address": "ty-relay1:1935",
+            "down_host": [
+                "客户端:1935",
+                ":1935"
+            ],
+            "viwers": 2,
+            "naccepted": 50140,
+            "isp": "联通",
+            "bw_out": 732760,
+            "up_conn": 529,
+            "mode": "外网边缘",
+            "download_connections": 1000,
+            "up_host": [
+                "sjz-relay7:1935",
+                "tz-relay7:1960",
+                ":1935",
+                "sjz-relay5:1935"
+            ],
+            "queues_peak": 211,
+            "recv_relays": [
+                {
+                    "bytes_in": 1640591547,
+                    "hostname": "cs-hhy-a2-05-sto3",
+                    "bw_in": 3601312,
+                    "up_conn": 48,
+                    "send_time_95peak": 331,
+                    "address": "cs-hhy-a2-05-sto3:1935",
+                    "send_time_ave": 249,
+                    "port": 1935,
+                    "send_time_peak": 334
+                },
+                {
+                    "bytes_in": 10661998170,
+                    "hostname": "tz-relay7",
+                    "bw_in": 17906112,
+                    "up_conn": 246,
+                    "send_time_95peak": 261,
+                    "address": "tz-relay7:1960",
+                    "send_time_ave": 256,
+                    "port": 1960,
+                    "send_time_peak": 267
+                },
+                {
+                    "bytes_in": 9883355489,
+                    "hostname": "tz-relay4",
+                    "bw_in": 12187968,
+                    "up_conn": 197,
+                    "send_time_95peak": 262,
+                    "address": "tz-relay4:1935",
+                    "send_time_ave": 257,
+                    "port": 1935,
+                    "send_time_peak": 325
+                },
+                {
+                    "bytes_in": 5682011458,
+                    "hostname": "61.55.189.152",
+                    "bw_in": 2681960,
+                    "up_conn": 38,
+                    "send_time_95peak": 121,
+                    "address": "61.55.189.152:1935",
+                    "send_time_ave": 117,
+                    "port": 1935,
+                    "send_time_peak": 122
+                }
+            ],
+            "_id": null,
+            "send_relays": [],
+            "staturl": "http://221.204.171.5:8080/stat"
+        },
+        {
+            "other_recv": {
+                "bytes_in": 76512933605,
+                "bw_in": 91237880,
+                "up_conn": 483,
+                "send_time_95peak": 1225,
+                "send_time_ave": 516,
+                "send_time_peak": 9645
+            },
+            "mode_id": 0,
+            "5min_conn": 44,
+            "pid": 30043,
+            "updated_at": "2017-04-28 10:03:43",
+            "public_ip": [
+                "103.38.42.73"
+            ],
+            "area_list": 4,
+            "private_ip": [
+                "192.168.2.6"
+            ],
+            "queues_ave": 1,
+            "upload_width": 300,
+            "uptime": 103367,
+            "queues_95peak": 1,
+            "area": "长沙",
+            "cid_area": "0-4",
+            "bytes_in": 846674963307,
+            "hostname": "cs-hhy-a2-05-sto5",
+            "bw_in": 92837584,
+            "upload_connections": 300,
+            "port": 1935,
+            "cid_id": 1,
+            "ip": [
+                "103.38.42.73",
+                "192.168.2.6"
+            ],
+            "sort": 8,
+            "timeout": false,
+            "timestamp": 1493345023,
+            "bytes_out": 9539642128,
+            "down_conn": 6,
+            "other_send": {
+                "down_conn": 6,
+                "queues_peak": 1,
+                "queues_ave": 1,
+                "queues_95peak": 1
+            },
+            "download_width": 100,
+            "address": "cs-hhy-a2-05-sto5:1935",
+            "down_host": [
+                "zj-relay2:1935",
+                "cs-hhy-a2-05-sto7:1935",
+                "ty-relay1:1935",
+                ":1935",
+                "sjz-relay8:1935",
+                "fs-relay7:1935",
+                "客户端:1935"
+            ],
+            "viwers": 6,
+            "naccepted": 37036,
+            "isp": "BGP",
+            "bw_out": 2184344,
+            "up_conn": 483,
+            "mode": "E0源转发",
+            "download_connections": 100,
+            "up_host": [
+                "客户端:1935",
+                ":1935"
+            ],
+            "queues_peak": 1,
+            "recv_relays": [],
+            "_id": null,
+            "send_relays": [],
+            "staturl": "http://103.38.42.73:8080/stat"
+        },
+        {
+            "5min_conn": 32,
+            "area_id": 2,
+            "other_recv": {
+                "bytes_in": 189320643580,
+                "bw_in": 181863352,
+                "up_conn": 631,
+                "send_time_95peak": 1607,
+                "send_time_ave": 460,
+                "send_time_peak": 16511
+            },
+            "mode_id": 0,
+            "ip": [
+                "122.226.181.29",
+                "60.12.69.110",
+                "192.168.2.215"
+            ],
+            "pid": 7155,
+            "updated_at": "2017-04-28 10:03:44",
+            "public_ip": [
+                "122.226.181.29",
+                "60.12.69.110"
+            ],
+            "area_list": 2,
+            "private_ip": [
+                "192.168.2.215"
+            ],
+            "port": 1935,
+            "upload_width": 300,
+            "uptime": 759692,
+            "queues_95peak": 1,
+            "area": "台州",
+            "cid_area": "0-4",
+            "bytes_in": 10301645593763,
+            "hostname": "tz-relay7",
+            "bw_in": 182342392,
+            "upload_connections": 300,
+            "cid_id": 1,
+            "bytes_out": 109154602081,
+            "local_address": "tz-relay7:1935",
+            "sort": 9,
+            "timeout": false,
+            "timestamp": 1493345024,
+            "down_conn": 3,
+            "other_send": {
+                "down_conn": 3,
+                "queues_peak": 1,
+                "queues_ave": 1,
+                "queues_95peak": 1
+            },
+            "download_width": 100,
+            "address": "tz-relay7:1935",
+            "down_host": [
+                "zj-relay2:1935",
+                "ty-relay1:1935",
+                ":1935",
+                "sjz-relay8:1935",
+                "fs-relay7:1935",
+                "tz-relay9:1935",
+                "客户端:1935"
+            ],
+            "viwers": 3,
+            "naccepted": 305042,
+            "queues_ave": 1,
+            "isp": "双线",
+            "bw_out": 1238128,
+            "up_conn": 631,
+            "mode": "E0源转发",
+            "download_connections": 100,
+            "up_host": [
+                "客户端:1935",
+                ":1935"
+            ],
+            "queues_peak": 1,
+            "recv_relays": [],
+            "_id": null,
+            "send_relays": [],
+            "staturl": "http://122.226.181.29:8080/stat"
+        },
+        {
+            "other_recv": [],
+            "mode_id": 0,
+            "5min_conn": 98,
+            "pid": 20669,
+            "updated_at": "2017-04-28 10:03:52",
+            "public_ip": [
+                "183.57.151.125"
+            ],
+            "area_list": 3,
+            "private_ip": [
+                "192.168.2.246"
+            ],
+            "queues_ave": 1,
+            "upload_width": 100,
+            "uptime": 824992,
+            "queues_95peak": 1,
+            "area": "佛山",
+            "cid_area": "0-9",
+            "bytes_in": 522760626477,
+            "hostname": "fs-sto20",
+            "bw_in": 63104920,
+            "upload_connections": 500,
+            "port": 1935,
+            "cid_id": 2,
+            "ip": [
+                "183.57.151.125",
+                "192.168.2.246"
+            ],
+            "sort": 10,
+            "timeout": false,
+            "timestamp": 1493345032,
+            "bytes_out": 49075275315,
+            "down_conn": 3,
+            "other_send": {
+                "down_conn": 3,
+                "queues_peak": 1,
+                "queues_ave": 1,
+                "queues_95peak": 1
+            },
+            "download_width": 200,
+            "address": "fs-sto20:1935",
+            "down_host": [
+                "客户端:1935",
+                ":1935"
+            ],
+            "viwers": 3,
+            "naccepted": 129492,
+            "isp": "电信",
+            "bw_out": 1504584,
+            "up_conn": 1022,
+            "mode": "内网边缘",
+            "download_connections": 1000,
+            "up_host": [
+                "fs-relay1:1935",
+                "tz-relay7:1970",
+                ":1935",
+                "tz-relay8:1971",
+                "fs-relay5:1935",
+                "fs-relay6:1935",
+                "fs-relay3:1935"
+            ],
+            "queues_peak": 1,
+            "recv_relays": [
+                {
+                    "bytes_in": 10690320499,
+                    "hostname": "fs-sto16",
+                    "bw_in": 17257072,
+                    "up_conn": 246,
+                    "send_time_95peak": 42,
+                    "address": "fs-sto16:1935",
+                    "send_time_ave": 39,
+                    "port": 1935,
+                    "send_time_peak": 53
+                },
+                {
+                    "bytes_in": 17719749895,
+                    "hostname": "fs-sto17",
+                    "bw_in": 21669056,
+                    "up_conn": 320,
+                    "send_time_95peak": 42,
+                    "address": "fs-sto17:1935",
+                    "send_time_ave": 39,
+                    "port": 1935,
+                    "send_time_peak": 54
+                },
+                {
+                    "bytes_in": 2277367353,
+                    "hostname": "tz-relay7",
+                    "bw_in": 2530096,
+                    "up_conn": 37,
+                    "send_time_95peak": 242,
+                    "address": "tz-relay7:1970",
+                    "send_time_ave": 212,
+                    "port": 1970,
+                    "send_time_peak": 242
+                },
+                {
+                    "bytes_in": 1927314220,
+                    "hostname": "cs-hhy-a2-05-sto6",
+                    "bw_in": 5115808,
+                    "up_conn": 93,
+                    "send_time_95peak": 187,
+                    "address": "cs-hhy-a2-05-sto6:1971",
+                    "send_time_ave": 162,
+                    "port": 1971,
+                    "send_time_peak": 194
+                },
+                {
+                    "bytes_in": 1760259130,
+                    "hostname": "cs-hhy-a2-05-sto3",
+                    "bw_in": 3510304,
+                    "up_conn": 48,
+                    "send_time_95peak": 185,
+                    "address": "cs-hhy-a2-05-sto3:1935",
+                    "send_time_ave": 159,
+                    "port": 1935,
+                    "send_time_peak": 188
+                },
+                {
+                    "bytes_in": 5849948186,
+                    "hostname": "cs-hhy-a2-05-sto4",
+                    "bw_in": 5918736,
+                    "up_conn": 81,
+                    "send_time_95peak": 182,
+                    "address": "cs-hhy-a2-05-sto4:1935",
+                    "send_time_ave": 158,
+                    "port": 1935,
+                    "send_time_peak": 374
+                },
+                {
+                    "bytes_in": 9748066070,
+                    "hostname": "tz-relay4",
+                    "bw_in": 12414680,
+                    "up_conn": 197,
+                    "send_time_95peak": 237,
+                    "address": "tz-relay4:1935",
+                    "send_time_ave": 214,
+                    "port": 1935,
+                    "send_time_peak": 303
+                }
+            ],
+            "_id": null,
+            "send_relays": [],
+            "staturl": "http://183.57.151.125:8080/stat"
+        },
+        {
+            "other_recv": {
+                "bytes_in": 160566916912,
+                "bw_in": 153996792,
+                "up_conn": 624,
+                "send_time_95peak": 1490,
+                "send_time_ave": 459,
+                "send_time_peak": 15035
+            },
+            "mode_id": 0,
+            "5min_conn": 26,
+            "pid": 11691,
+            "updated_at": "2017-04-28 10:03:47",
+            "public_ip": [
+                "183.57.151.116"
+            ],
+            "area_list": 3,
+            "private_ip": [
+                "192.168.2.244"
+            ],
+            "queues_ave": 4,
+            "upload_width": 200,
+            "uptime": 760445,
+            "queues_95peak": 12,
+            "area": "佛山",
+            "cid_area": "0-9",
+            "bytes_in": 10181538869973,
+            "hostname": "fs-sto14",
+            "bw_in": 155600592,
+            "upload_connections": 1000,
+            "port": 1935,
+            "cid_id": 2,
+            "ip": [
+                "183.57.151.116",
+                "192.168.2.244"
+            ],
+            "sort": 11,
+            "timeout": false,
+            "timestamp": 1493345027,
+            "bytes_out": 103124138706,
+            "down_conn": 3,
+            "other_send": {
+                "down_conn": 3,
+                "queues_peak": 12,
+                "queues_ave": 4,
+                "queues_95peak": 12
+            },
+            "download_width": 200,
+            "address": "fs-sto14:1935",
+            "down_host": [
+                "客户端:1935",
+                ":1935"
+            ],
+            "viwers": 3,
+            "naccepted": 658784,
+            "isp": "电信",
+            "bw_out": 1706072,
+            "up_conn": 624,
+            "mode": "C0源转发",
+            "download_connections": 1000,
+            "up_host": [
+                "客户端:1935",
+                ":1935"
+            ],
+            "queues_peak": 12,
+            "recv_relays": [],
+            "_id": null,
+            "send_relays": [],
+            "staturl": "http://183.57.151.116:8080/stat"
+        },
+        {
+            "other_recv": {
+                "bytes_in": 9397604068,
+                "bw_in": 12592784,
+                "up_conn": 46,
+                "send_time_95peak": 8742,
+                "send_time_ave": 553210,
+                "send_time_peak": 22075973
+            },
+            "mode_id": 0,
+            "5min_conn": 14,
+            "pid": 10016,
+            "updated_at": "2017-04-28 10:03:53",
+            "public_ip": [
+                "103.38.42.71"
+            ],
+            "area_list": 4,
+            "private_ip": [
+                "192.168.2.4"
+            ],
+            "queues_ave": 1,
+            "upload_width": 300,
+            "uptime": 103382,
+            "queues_95peak": 1,
+            "area": "长沙",
+            "cid_area": "0-9",
+            "bytes_in": 60996261823,
+            "hostname": "cs-hhy-a2-05-sto3",
+            "bw_in": 12745080,
+            "upload_connections": 1500,
+            "port": 1935,
+            "cid_id": 2,
+            "ip": [
+                "103.38.42.71",
+                "192.168.2.4"
+            ],
+            "sort": 12,
+            "timeout": false,
+            "timestamp": 1493345033,
+            "bytes_out": 82105964107,
+            "down_conn": 276,
+            "other_send": [],
+            "download_width": 100,
+            "address": "cs-hhy-a2-05-sto3:1935",
+            "down_host": [
+                "zj-relay2:1935",
+                "cs-hhy-a2-05-sto7:1935",
+                "ty-relay1:1935",
+                "sjz-relay8:1935",
+                "fs-relay7:1935",
+                "tz-relay9:1935",
+                "客户端:1935"
+            ],
+            "viwers": 0,
+            "naccepted": 5358,
+            "isp": "BGP",
+            "bw_out": 19004440,
+            "up_conn": 46,
+            "mode": "D0源转发",
+            "download_connections": 500,
+            "up_host": [
+                "客户端:1935",
+                ":1935"
+            ],
+            "queues_peak": 1,
+            "recv_relays": [],
+            "_id": null,
+            "send_relays": [
+                {
+                    "queues_95peak": 1,
+                    "hostname": "zj-relay2",
+                    "port": 1935,
+                    "down_conn": 46,
+                    "is_lan": false,
+                    "address": "zj-relay2:1935",
+                    "queues_peak": 1,
+                    "queues_ave": 1
+                },
+                {
+                    "queues_95peak": 1,
+                    "hostname": "cs-hhy-a2-05-sto7",
+                    "port": 1935,
+                    "down_conn": 46,
+                    "is_lan": true,
+                    "address": "cs-hhy-a2-05-sto7:1935",
+                    "queues_peak": 1,
+                    "queues_ave": 1
+                },
+                {
+                    "queues_95peak": 1,
+                    "hostname": "sjz-relay8",
+                    "port": 1935,
+                    "down_conn": 46,
+                    "is_lan": false,
+                    "address": "sjz-relay8:1935",
+                    "queues_peak": 1,
+                    "queues_ave": 1
+                },
+                {
+                    "queues_95peak": 1,
+                    "hostname": "fs-sto20",
+                    "port": 1935,
+                    "down_conn": 46,
+                    "is_lan": false,
+                    "address": "fs-sto20:1935",
+                    "queues_peak": 1,
+                    "queues_ave": 1
+                },
+                {
+                    "queues_95peak": 1,
+                    "hostname": "tz-relay9",
+                    "port": 1935,
+                    "down_conn": 46,
+                    "is_lan": false,
+                    "address": "tz-relay9:1935",
+                    "queues_peak": 1,
+                    "queues_ave": 1
+                },
+                {
+                    "queues_95peak": 1,
+                    "hostname": "ty-relay1",
+                    "port": 1935,
+                    "down_conn": 46,
+                    "is_lan": false,
+                    "address": "ty-relay1:1935",
+                    "queues_peak": 1,
+                    "queues_ave": 1
+                }
+            ],
+            "staturl": "http://103.38.42.71:8080/stat"
+        },
+        {
+            "other_recv": [],
+            "mode_id": 0,
+            "5min_conn": 53,
+            "pid": 8198,
+            "updated_at": "2017-04-28 10:03:46",
+            "public_ip": [
+                "122.226.181.124",
+                "60.12.69.219"
+            ],
+            "area_list": 2,
+            "private_ip": [
+                "192.168.2.243"
+            ],
+            "queues_ave": 0,
+            "upload_width": 1000,
+            "uptime": 824992,
+            "queues_95peak": 0,
+            "area": "台州",
+            "cid_area": "0-9",
+            "bytes_in": 247811751616,
+            "hostname": "tz-relay9",
+            "bw_in": 32179504,
+            "upload_connections": 1000,
+            "port": 1935,
+            "cid_id": 2,
+            "ip": [
+                "122.226.181.124",
+                "60.12.69.219",
+                "192.168.2.243"
+            ],
+            "sort": 13,
+            "timeout": false,
+            "timestamp": 1493345026,
+            "bytes_out": 16437055385,
+            "down_conn": 0,
+            "other_send": [],
+            "download_width": 1000,
+            "address": "tz-relay9:1935",
+            "down_host": [
+                "客户端:1935",
+                ":1935"
+            ],
+            "viwers": 0,
+            "naccepted": 79137,
+            "isp": "双线",
+            "bw_out": 31552,
+            "up_conn": 529,
+            "mode": "内网边缘",
+            "download_connections": 1000,
+            "up_host": [
+                "tz-relay7:1960",
+                "tz-relay7:1970",
+                ":1935",
+                "tz-relay8:1971",
+                "tz-relay8:1961",
+                "tz-relay8:1935",
+                "tz-relay6:1935",
+                "tz-relay4:1935",
+                "tz-relay7:1935"
+            ],
+            "queues_peak": 0,
+            "recv_relays": [
+                {
+                    "bytes_in": 2290613541,
+                    "hostname": "tz-relay7",
+                    "bw_in": 2713832,
+                    "up_conn": 37,
+                    "send_time_95peak": 52,
+                    "address": "tz-relay7:1970",
+                    "send_time_ave": 41,
+                    "port": 1970,
+                    "send_time_peak": 56
+                },
+                {
+                    "bytes_in": 2742478144,
+                    "hostname": "tz-relay6",
+                    "bw_in": 301264,
+                    "up_conn": 1,
+                    "send_time_95peak": 39,
+                    "address": "tz-relay6:1935",
+                    "send_time_ave": 39,
+                    "port": 1935,
+                    "send_time_peak": 39
+                },
+                {
+                    "bytes_in": 10677612143,
+                    "hostname": "tz-relay7",
+                    "bw_in": 17913176,
+                    "up_conn": 246,
+                    "send_time_95peak": 47,
+                    "address": "tz-relay7:1960",
+                    "send_time_ave": 41,
+                    "port": 1960,
+                    "send_time_peak": 52
+                },
+                {
+                    "bytes_in": 10064741097,
+                    "hostname": "tz-relay4",
+                    "bw_in": 12629576,
+                    "up_conn": 197,
+                    "send_time_95peak": 45,
+                    "address": "tz-relay4:1935",
+                    "send_time_ave": 41,
+                    "port": 1935,
+                    "send_time_peak": 50
+                },
+                {
+                    "bytes_in": 1717793806,
+                    "hostname": "cs-hhy-a2-05-sto3",
+                    "bw_in": 3123048,
+                    "up_conn": 48,
+                    "send_time_95peak": 248,
+                    "address": "cs-hhy-a2-05-sto3:1935",
+                    "send_time_ave": 225,
+                    "port": 1935,
+                    "send_time_peak": 256
+                }
+            ],
+            "_id": null,
+            "send_relays": [],
+            "staturl": "http://122.226.181.124:8080/stat"
+        },
+        {
+            "other_recv": [],
+            "mode_id": 0,
+            "5min_conn": 0,
+            "pid": 13800,
+            "updated_at": "2017-04-28 10:03:53",
+            "public_ip": [
+                "122.226.181.25",
+                "60.12.69.98"
+            ],
+            "area_list": 2,
+            "private_ip": [
+                "192.168.2.211"
+            ],
+            "queues_ave": 0,
+            "upload_width": 200,
+            "uptime": 759707,
+            "queues_95peak": 0,
+            "area": "台州",
+            "cid_area": "0-9",
+            "bytes_in": 381846760903,
+            "hostname": "tz-relay3",
+            "bw_in": 5825560,
+            "upload_connections": 1000,
+            "port": 1935,
+            "cid_id": 2,
+            "ip": [
+                "122.226.181.25",
+                "60.12.69.98",
+                "192.168.2.211"
+            ],
+            "sort": 14,
+            "timeout": false,
+            "timestamp": 1493345033,
+            "bytes_out": 294427868,
+            "down_conn": 0,
+            "other_send": [],
+            "download_width": 200,
+            "address": "tz-relay3:1935",
+            "down_host": [
+                "客户端:1935",
+                ":1935"
+            ],
+            "viwers": 0,
+            "naccepted": 4195,
+            "isp": "双线",
+            "bw_out": 728,
+            "up_conn": 16,
+            "mode": "C0源转发",
+            "download_connections": 1000,
+            "up_host": [
+                "客户端:1935",
+                ":1935"
+            ],
+            "queues_peak": 0,
+            "recv_relays": [
+                {
+                    "bytes_in": 9165480253,
+                    "hostname": "111.6.96.8",
+                    "bw_in": 5697392,
+                    "up_conn": 16,
+                    "send_time_95peak": 279,
+                    "address": "111.6.96.8:1935",
+                    "send_time_ave": 254,
+                    "port": 1935,
+                    "send_time_peak": 279
+                }
+            ],
+            "_id": null,
+            "send_relays": [],
+            "staturl": "http://122.226.181.25:8080/stat"
+        },
+        {
+            "other_recv": [],
+            "mode_id": 0,
+            "5min_conn": 46,
+            "pid": 27745,
+            "updated_at": "2017-04-28 10:03:42",
+            "public_ip": [
+                "103.38.42.75"
+            ],
+            "area_list": 4,
+            "private_ip": [
+                "192.168.2.8"
+            ],
+            "queues_ave": 0,
+            "upload_width": 1000,
+            "uptime": 103367,
+            "queues_95peak": 0,
+            "area": "长沙",
+            "cid_area": "0-9",
+            "bytes_in": 150034693788,
+            "hostname": "cs-hhy-a2-05-sto7",
+            "bw_in": 32644944,
+            "upload_connections": 1000,
+            "port": 1935,
+            "cid_id": 2,
+            "ip": [
+                "103.38.42.75",
+                "192.168.2.8"
+            ],
+            "sort": 15,
+            "timeout": false,
+            "timestamp": 1493345022,
+            "bytes_out": 3797286875,
+            "down_conn": 0,
+            "other_send": [],
+            "download_width": 1000,
+            "address": "cs-hhy-a2-05-sto7:1935",
+            "down_host": [
+                "客户端:1935",
+                ":1935"
+            ],
+            "viwers": 0,
+            "naccepted": 24542,
+            "isp": "BGP",
+            "bw_out": 39784,
+            "up_conn": 542,
+            "mode": "内网边缘",
+            "download_connections": 1000,
+            "up_host": [
+                "cs-hhy-a2-05-sto5:1960",
+                "cs-hhy-a2-05-sto6:1935",
+                "cs-hhy-a2-05-sto5:1970",
+                "cs-hhy-a2-05-sto6:1961",
+                "cs-hhy-a2-05-sto6:1971",
+                "cs-hhy-a2-05-sto3:1935",
+                "cs-hhy-a2-05-sto5:1935",
+                "tz-relay8:1935",
+                "cs-hhy-a2-05-sto4:1935",
+                "tz-relay6:1935"
+            ],
+            "queues_peak": 0,
+            "recv_relays": [
+                {
+                    "bytes_in": 17142156552,
+                    "hostname": "cs-hhy-a2-05-sto6",
+                    "bw_in": 21333400,
+                    "up_conn": 320,
+                    "send_time_95peak": 42,
+                    "address": "cs-hhy-a2-05-sto6:1961",
+                    "send_time_ave": 39,
+                    "port": 1961,
+                    "send_time_peak": 51
+                },
+                {
+                    "bytes_in": 5812772555,
+                    "hostname": "cs-hhy-a2-05-sto4",
+                    "bw_in": 6179064,
+                    "up_conn": 81,
+                    "send_time_95peak": 41,
+                    "address": "cs-hhy-a2-05-sto4:1935",
+                    "send_time_ave": 39,
+                    "port": 1935,
+                    "send_time_peak": 44
+                },
+                {
+                    "bytes_in": 2044384725,
+                    "hostname": "cs-hhy-a2-05-sto6",
+                    "bw_in": 5207448,
+                    "up_conn": 93,
+                    "send_time_95peak": 43,
+                    "address": "cs-hhy-a2-05-sto6:1971",
+                    "send_time_ave": 41,
+                    "port": 1971,
+                    "send_time_peak": 248
+                },
+                {
+                    "bytes_in": 1714920742,
+                    "hostname": "cs-hhy-a2-05-sto3",
+                    "bw_in": 2964768,
+                    "up_conn": 48,
+                    "send_time_95peak": 42,
+                    "address": "cs-hhy-a2-05-sto3:1935",
+                    "send_time_ave": 39,
+                    "port": 1935,
+                    "send_time_peak": 43
+                }
+            ],
+            "_id": null,
+            "send_relays": [],
+            "staturl": "http://103.38.42.75:8080/stat"
+        },
+        {
+            "other_recv": {
+                "bytes_in": 364813323,
+                "bw_in": 2144344,
+                "up_conn": 4,
+                "send_time_95peak": 447,
+                "send_time_ave": 304,
+                "send_time_peak": 447
+            },
+            "mode_id": 0,
+            "5min_conn": 1,
+            "pid": 31750,
+            "updated_at": "2017-04-28 10:03:52",
+            "public_ip": [
+                "61.55.189.141"
+            ],
+            "area_list": 1,
+            "private_ip": [
+                "192.168.2.212"
+            ],
+            "queues_ave": 0,
+            "upload_width": 200,
+            "uptime": 760050,
+            "queues_95peak": 0,
+            "area": "石家庄",
+            "cid_area": "0-9",
+            "bytes_in": 98421897105,
+            "hostname": "sjz-relay3",
+            "bw_in": 2179504,
+            "upload_connections": 1000,
+            "port": 1935,
+            "cid_id": 2,
+            "ip": [
+                "61.55.189.141",
+                "192.168.2.212"
+            ],
+            "sort": 16,
+            "timeout": false,
+            "timestamp": 1493345032,
+            "bytes_out": 1393875840,
+            "down_conn": 0,
+            "other_send": [],
+            "download_width": 200,
+            "address": "sjz-relay3:1935",
+            "down_host": [
+                "客户端:1935",
+                ":1935"
+            ],
+            "viwers": 0,
+            "naccepted": 3006,
+            "isp": "联通",
+            "bw_out": 80,
+            "up_conn": 4,
+            "mode": "C0源转发",
+            "download_connections": 1000,
+            "up_host": [
+                "客户端:1935",
+                ":1935"
+            ],
+            "queues_peak": 0,
+            "recv_relays": [],
+            "_id": null,
+            "send_relays": [],
+            "staturl": "http://61.55.189.141:8080/stat"
+        },
+        {
+            "other_recv": [],
+            "mode_id": 0,
+            "5min_conn": 94,
+            "pid": 30778,
+            "updated_at": "2017-04-28 10:03:47",
+            "public_ip": [
+                "61.55.189.174"
+            ],
+            "area_list": 1,
+            "private_ip": [
+                "192.168.2.232"
+            ],
+            "queues_ave": 1,
+            "upload_width": 100,
+            "uptime": 824992,
+            "queues_95peak": 1,
+            "area": "石家庄",
+            "cid_area": "0-9",
+            "bytes_in": 498836324596,
+            "hostname": "sjz-relay8",
+            "bw_in": 63120488,
+            "upload_connections": 500,
+            "port": 1935,
+            "cid_id": 2,
+            "ip": [
+                "61.55.189.174",
+                "192.168.2.232"
+            ],
+            "sort": 17,
+            "timeout": false,
+            "timestamp": 1493345027,
+            "bytes_out": 7891290750,
+            "down_conn": 1,
+            "other_send": {
+                "down_conn": 1,
+                "queues_peak": 1,
+                "queues_ave": 1,
+                "queues_95peak": 1
+            },
+            "download_width": 200,
+            "address": "sjz-relay8:1935",
+            "down_host": [
+                "客户端:1935",
+                ":1935"
+            ],
+            "viwers": 1,
+            "naccepted": 110470,
+            "isp": "联通",
+            "bw_out": 342424,
+            "up_conn": 1023,
+            "mode": "内网边缘",
+            "download_connections": 1000,
+            "up_host": [
+                "sjz-relay7:1935",
+                "sjz-relay6:1935",
+                "tz-relay7:1960",
+                ":1935",
+                "tz-relay8:1961",
+                "sjz-relay2:1935",
+                "sjz-relay5:1935"
+            ],
+            "queues_peak": 1,
+            "recv_relays": [
+                {
+                    "bytes_in": 10670988766,
+                    "hostname": "tz-relay7",
+                    "bw_in": 18136792,
+                    "up_conn": 246,
+                    "send_time_95peak": 249,
+                    "address": "tz-relay7:1960",
+                    "send_time_ave": 228,
+                    "port": 1960,
+                    "send_time_peak": 253
+                },
+                {
+                    "bytes_in": 17017669018,
+                    "hostname": "cs-hhy-a2-05-sto6",
+                    "bw_in": 21615672,
+                    "up_conn": 319,
+                    "send_time_95peak": 198,
+                    "address": "cs-hhy-a2-05-sto6:1961",
+                    "send_time_ave": 195,
+                    "port": 1961,
+                    "send_time_peak": 235
+                },
+                {
+                    "bytes_in": 2120190529,
+                    "hostname": "192.168.2.223",
+                    "bw_in": 5952656,
+                    "up_conn": 93,
+                    "send_time_95peak": 45,
+                    "address": "192.168.2.223:1935",
+                    "send_time_ave": 40,
+                    "port": 1935,
+                    "send_time_peak": 50
+                },
+                {
+                    "bytes_in": 4068580320,
+                    "hostname": "192.168.2.224",
+                    "bw_in": 2875656,
+                    "up_conn": 38,
+                    "send_time_95peak": 43,
+                    "address": "192.168.2.224:1935",
+                    "send_time_ave": 39,
+                    "port": 1935,
+                    "send_time_peak": 44
+                },
+                {
+                    "bytes_in": 1743105154,
+                    "hostname": "cs-hhy-a2-05-sto3",
+                    "bw_in": 3699552,
+                    "up_conn": 48,
+                    "send_time_95peak": 198,
+                    "address": "cs-hhy-a2-05-sto3:1935",
+                    "send_time_ave": 194,
+                    "port": 1935,
+                    "send_time_peak": 200
+                },
+                {
+                    "bytes_in": 5803509228,
+                    "hostname": "cs-hhy-a2-05-sto4",
+                    "bw_in": 5869216,
+                    "up_conn": 81,
+                    "send_time_95peak": 200,
+                    "address": "cs-hhy-a2-05-sto4:1935",
+                    "send_time_ave": 198,
+                    "port": 1935,
+                    "send_time_peak": 323
+                },
+                {
+                    "bytes_in": 1070219707,
+                    "hostname": "tz-relay6",
+                    "bw_in": 301264,
+                    "up_conn": 1,
+                    "send_time_95peak": 244,
+                    "address": "tz-relay6:1935",
+                    "send_time_ave": 244,
+                    "port": 1935,
+                    "send_time_peak": 244
+                },
+                {
+                    "bytes_in": 9898629575,
+                    "hostname": "tz-relay4",
+                    "bw_in": 12359712,
+                    "up_conn": 197,
+                    "send_time_95peak": 269,
+                    "address": "tz-relay4:1935",
+                    "send_time_ave": 247,
+                    "port": 1935,
+                    "send_time_peak": 273
+                }
+            ],
+            "_id": null,
+            "send_relays": [],
+            "staturl": "http://61.55.189.174:8080/stat"
+        },
+        {
+            "other_recv": {
+                "bytes_in": 4755754562,
+                "bw_in": 2056872,
+                "up_conn": 6,
+                "send_time_95peak": 472,
+                "send_time_ave": 282,
+                "send_time_peak": 472
+            },
+            "mode_id": 0,
+            "5min_conn": 0,
+            "pid": 27986,
+            "updated_at": "2017-04-28 10:03:52",
+            "public_ip": [
+                "122.226.181.27",
+                "60.12.69.105"
+            ],
+            "area_list": 2,
+            "private_ip": [
+                "192.168.2.213"
+            ],
+            "queues_ave": 0,
+            "upload_width": 200,
+            "uptime": 759707,
+            "queues_95peak": 0,
+            "area": "台州",
+            "cid_area": "0-9",
+            "bytes_in": 232438421284,
+            "hostname": "tz-relay5",
+            "bw_in": 2187448,
+            "upload_connections": 1000,
+            "port": 1935,
+            "cid_id": 2,
+            "ip": [
+                "122.226.181.27",
+                "60.12.69.105",
+                "192.168.2.213"
+            ],
+            "sort": 18,
+            "timeout": false,
+            "timestamp": 1493345032,
+            "bytes_out": 10382687637,
+            "down_conn": 0,
+            "other_send": [],
+            "download_width": 200,
+            "address": "tz-relay5:1935",
+            "down_host": [
+                "客户端:1935",
+                ":1935"
+            ],
+            "viwers": 0,
+            "naccepted": 2340,
+            "isp": "双线",
+            "bw_out": 160,
+            "up_conn": 6,
+            "mode": "C0源转发",
+            "download_connections": 1000,
+            "up_host": [
+                "客户端:1935",
+                ":1935"
+            ],
+            "queues_peak": 0,
+            "recv_relays": [],
+            "_id": null,
+            "send_relays": [],
+            "staturl": "http://122.226.181.27:8080/stat"
+        },
+        {
+            "other_recv": {
+                "bytes_in": 10282710484,
+                "bw_in": 4902304,
+                "up_conn": 9,
+                "send_time_95peak": 5586,
+                "send_time_ave": 914,
+                "send_time_peak": 5586
+            },
+            "mode_id": 0,
+            "5min_conn": 2,
+            "pid": 29561,
+            "updated_at": "2017-04-28 10:03:53",
+            "public_ip": [
+                "183.57.151.103"
+            ],
+            "area_list": 3,
+            "private_ip": [
+                "192.168.2.242"
+            ],
+            "queues_ave": 0,
+            "upload_width": 200,
+            "uptime": 760459,
+            "queues_95peak": 0,
+            "area": "佛山",
+            "cid_area": "0-9",
+            "bytes_in": 305772285934,
+            "hostname": "fs-sto15",
+            "bw_in": 4516432,
+            "upload_connections": 1000,
+            "port": 1935,
+            "cid_id": 2,
+            "ip": [
+                "183.57.151.103",
+                "192.168.2.242"
+            ],
+            "sort": 19,
+            "timeout": false,
+            "timestamp": 1493345033,
+            "bytes_out": 5542236113,
+            "down_conn": 0,
+            "other_send": [],
+            "download_width": 200,
+            "address": "fs-sto15:1935",
+            "down_host": [
+                "客户端:1935",
+                ":1935"
+            ],
+            "viwers": 0,
+            "naccepted": 4679,
+            "isp": "电信",
+            "bw_out": 224,
+            "up_conn": 9,
+            "mode": "C0源转发",
+            "download_connections": 1000,
+            "up_host": [
+                "客户端:1935",
+                ":1935"
+            ],
+            "queues_peak": 0,
+            "recv_relays": [],
+            "_id": null,
+            "send_relays": [],
+            "staturl": "http://183.57.151.103:8080/stat"
+        },
+        {
+            "other_recv": {
+                "bytes_in": 107898178516,
+                "bw_in": 114866224,
+                "up_conn": 481,
+                "send_time_95peak": 1943,
+                "send_time_ave": 487,
+                "send_time_peak": 9355
+            },
+            "mode_id": 0,
+            "5min_conn": 23,
+            "pid": 29820,
+            "updated_at": "2017-04-28 10:03:43",
+            "public_ip": [
+                "61.55.189.147"
+            ],
+            "area_list": 1,
+            "private_ip": [
+                "192.168.2.220"
+            ],
+            "queues_ave": 1,
+            "upload_width": 500,
+            "uptime": 760035,
+            "queues_95peak": 1,
+            "area": "石家庄",
+            "cid_area": "0-9",
+            "bytes_in": 6830006751430,
+            "hostname": "sjz-sto3",
+            "bw_in": 112251592,
+            "upload_connections": 1000,
+            "port": 1935,
+            "cid_id": 2,
+            "ip": [
+                "61.55.189.147",
+                "192.168.2.220"
+            ],
+            "sort": 20,
+            "timeout": false,
+            "timestamp": 1493345023,
+            "bytes_out": 81415901043,
+            "down_conn": 1,
+            "other_send": {
+                "down_conn": 1,
+                "queues_peak": 1,
+                "queues_ave": 1,
+                "queues_95peak": 1
+            },
+            "download_width": 500,
+            "address": "sjz-sto3:1935",
+            "down_host": [
+                "客户端:1935",
+                ":1935"
+            ],
+            "viwers": 1,
+            "naccepted": 191105,
+            "isp": "联通",
+            "bw_out": 1380288,
+            "up_conn": 481,
+            "mode": "C0源转发",
+            "download_connections": 500,
+            "up_host": [
+                "客户端:1935",
+                ":1935"
+            ],
+            "queues_peak": 1,
+            "recv_relays": [],
+            "_id": null,
+            "send_relays": [],
+            "staturl": "http://61.55.189.147:8080/stat"
+        },
+        {
+            "other_recv": {
+                "bytes_in": 104117104957,
+                "bw_in": 109870224,
+                "up_conn": 480,
+                "send_time_95peak": 1425,
+                "send_time_ave": 464,
+                "send_time_peak": 10725
+            },
+            "mode_id": 0,
+            "5min_conn": 20,
+            "pid": 26089,
+            "updated_at": "2017-04-28 10:03:43",
+            "public_ip": [
+                "61.55.189.146"
+            ],
+            "area_list": 1,
+            "private_ip": [
+                "192.168.2.219"
+            ],
+            "queues_ave": 1,
+            "upload_width": 500,
+            "uptime": 760035,
+            "queues_95peak": 1,
+            "area": "石家庄",
+            "cid_area": "0-9",
+            "bytes_in": 6663269760543,
+            "hostname": "sjz-sto2",
+            "bw_in": 111691856,
+            "upload_connections": 1000,
+            "port": 1935,
+            "cid_id": 2,
+            "ip": [
+                "61.55.189.146",
+                "192.168.2.219"
+            ],
+            "sort": 21,
+            "timeout": false,
+            "timestamp": 1493345023,
+            "bytes_out": 86950426296,
+            "down_conn": 4,
+            "other_send": {
+                "down_conn": 4,
+                "queues_peak": 1,
+                "queues_ave": 1,
+                "queues_95peak": 1
+            },
+            "download_width": 500,
+            "address": "sjz-sto2:1935",
+            "down_host": [
+                "客户端:1935",
+                ":1935"
+            ],
+            "viwers": 4,
+            "naccepted": 197763,
+            "isp": "联通",
+            "bw_out": 2453456,
+            "up_conn": 480,
+            "mode": "C0源转发",
+            "download_connections": 500,
+            "up_host": [
+                "客户端:1935",
+                ":1935"
+            ],
+            "queues_peak": 1,
+            "recv_relays": [],
+            "_id": null,
+            "send_relays": [],
+            "staturl": "http://61.55.189.146:8080/stat"
+        },
+        {
+            "other_recv": {
+                "bytes_in": 1594643131,
+                "bw_in": 2402928,
+                "up_conn": 4,
+                "send_time_95peak": 3838,
+                "send_time_ave": 1254,
+                "send_time_peak": 3838
+            },
+            "mode_id": 0,
+            "5min_conn": 0,
+            "pid": 30330,
+            "updated_at": "2017-04-28 10:03:52",
+            "public_ip": [
+                "103.38.42.78"
+            ],
+            "area_list": 4,
+            "private_ip": [
+                "192.168.2.11"
+            ],
+            "queues_ave": 0,
+            "upload_width": 500,
+            "uptime": 103382,
+            "queues_95peak": 0,
+            "area": "长沙",
+            "cid_area": "0-9",
+            "bytes_in": 22639461771,
+            "hostname": "cs-hhy-a2-05-sto10",
+            "bw_in": 2429152,
+            "upload_connections": 1000,
+            "port": 1935,
+            "cid_id": 2,
+            "ip": [
+                "103.38.42.78",
+                "192.168.2.11"
+            ],
+            "sort": 22,
+            "timeout": false,
+            "timestamp": 1493345032,
+            "bytes_out": 286053318,
+            "down_conn": 0,
+            "other_send": [],
+            "download_width": 500,
+            "address": "cs-hhy-a2-05-sto10:1935",
+            "down_host": [
+                ":1935"
+            ],
+            "viwers": 0,
+            "naccepted": 352,
+            "isp": "BGP",
+            "bw_out": 200,
+            "up_conn": 4,
+            "mode": "C0源转发",
+            "download_connections": 500,
+            "up_host": [
+                "客户端:1935",
+                ":1935"
+            ],
+            "queues_peak": 0,
+            "recv_relays": [],
+            "_id": null,
+            "send_relays": [],
+            "staturl": "http://103.38.42.78:8080/stat"
+        },
+        {
+            "other_recv": {
+                "bytes_in": 80970158977,
+                "bw_in": 96612736,
+                "up_conn": 486,
+                "send_time_95peak": 1758,
+                "send_time_ave": 531,
+                "send_time_peak": 12500
+            },
+            "mode_id": 0,
+            "5min_conn": 32,
+            "pid": 30263,
+            "updated_at": "2017-04-28 10:03:41",
+            "public_ip": [
+                "103.38.42.81"
+            ],
+            "area_list": 4,
+            "private_ip": [
+                "192.168.2.14"
+            ],
+            "queues_ave": 1,
+            "upload_width": 500,
+            "uptime": 103367,
+            "queues_95peak": 1,
+            "area": "长沙",
+            "cid_area": "0-9",
+            "bytes_in": 808261165382,
+            "hostname": "cs-hhy-a2-05-sto9",
+            "bw_in": 94737184,
+            "upload_connections": 1000,
+            "port": 1935,
+            "cid_id": 2,
+            "ip": [
+                "103.38.42.81",
+                "192.168.2.14"
+            ],
+            "sort": 23,
+            "timeout": false,
+            "timestamp": 1493345021,
+            "bytes_out": 10582616705,
+            "down_conn": 6,
+            "other_send": {
+                "down_conn": 6,
+                "queues_peak": 1,
+                "queues_ave": 1,
+                "queues_95peak": 1
+            },
+            "download_width": 500,
+            "address": "cs-hhy-a2-05-sto9:1935",
+            "down_host": [
+                ":1935"
+            ],
+            "viwers": 6,
+            "naccepted": 34216,
+            "isp": "BGP",
+            "bw_out": 2235136,
+            "up_conn": 486,
+            "mode": "C0源转发",
+            "download_connections": 500,
+            "up_host": [
+                "客户端:1935",
+                ":1935"
+            ],
+            "queues_peak": 1,
+            "recv_relays": [],
+            "_id": null,
+            "send_relays": [],
+            "staturl": "http://103.38.42.81:8080/stat"
+        },
+        {
+            "other_recv": {
+                "bytes_in": 170251922847,
+                "bw_in": 181883008,
+                "up_conn": 666,
+                "send_time_95peak": 1739,
+                "send_time_ave": 449,
+                "send_time_peak": 10699
+            },
+            "mode_id": 0,
+            "5min_conn": 36,
+            "pid": 21195,
+            "updated_at": "2017-04-28 10:03:46",
+            "public_ip": [
+                "122.226.181.114"
+            ],
+            "area_list": 2,
+            "private_ip": [
+                "192.168.2.219"
+            ],
+            "queues_ave": 1,
+            "upload_width": 500,
+            "uptime": 759692,
+            "queues_95peak": 1,
+            "area": "台州",
+            "cid_area": "0-9",
+            "bytes_in": 10034950955771,
+            "hostname": "tz-sto2",
+            "bw_in": 180251864,
+            "upload_connections": 1000,
+            "port": 1935,
+            "cid_id": 2,
+            "ip": [
+                "122.226.181.114",
+                "192.168.2.219"
+            ],
+            "sort": 24,
+            "timeout": false,
+            "timestamp": 1493345026,
+            "bytes_out": 128096987066,
+            "down_conn": 4,
+            "other_send": {
+                "down_conn": 4,
+                "queues_peak": 1,
+                "queues_ave": 1,
+                "queues_95peak": 1
+            },
+            "download_width": 500,
+            "address": "tz-sto2:1935",
+            "down_host": [
+                "客户端:1935",
+                ":1935"
+            ],
+            "viwers": 4,
+            "naccepted": 312537,
+            "isp": "电信",
+            "bw_out": 1656104,
+            "up_conn": 666,
+            "mode": "C0源转发",
+            "download_connections": 200,
+            "up_host": [
+                "客户端:1935",
+                ":1935"
+            ],
+            "queues_peak": 1,
+            "recv_relays": [],
+            "_id": null,
+            "send_relays": [],
+            "staturl": "http://122.226.181.114:8080/stat"
+        },
+        {
+            "other_recv": {
+                "bytes_in": 129259471227,
+                "bw_in": 172092584,
+                "up_conn": 672,
+                "send_time_95peak": 1468,
+                "send_time_ave": 402,
+                "send_time_peak": 8267
+            },
+            "mode_id": 0,
+            "5min_conn": 32,
+            "pid": 24711,
+            "updated_at": "2017-04-28 10:03:49",
+            "public_ip": [
+                "183.57.151.135"
+            ],
+            "area_list": 3,
+            "private_ip": [
+                "192.168.2.251"
+            ],
+            "queues_ave": 1,
+            "upload_width": 200,
+            "uptime": 760444,
+            "queues_95peak": 1,
+            "area": "佛山",
+            "cid_area": "0-9",
+            "bytes_in": 10157621893115,
+            "hostname": "fs-sto21",
+            "bw_in": 174205456,
+            "upload_connections": 1000,
+            "port": 1935,
+            "cid_id": 2,
+            "ip": [
+                "183.57.151.135",
+                "192.168.2.251"
+            ],
+            "sort": 25,
+            "timeout": false,
+            "timestamp": 1493345029,
+            "bytes_out": 126075027879,
+            "down_conn": 4,
+            "other_send": {
+                "down_conn": 4,
+                "queues_peak": 1,
+                "queues_ave": 1,
+                "queues_95peak": 1
+            },
+            "download_width": 200,
+            "address": "fs-sto21:1935",
+            "down_host": [
+                "客户端:1935",
+                ":1935"
+            ],
+            "viwers": 4,
+            "naccepted": 739091,
+            "isp": "电信",
+            "bw_out": 2778632,
+            "up_conn": 672,
+            "mode": "C0源转发",
+            "download_connections": 1000,
+            "up_host": [
+                "客户端:1935",
+                ":1935"
+            ],
+            "queues_peak": 1,
+            "recv_relays": [],
+            "_id": null,
+            "send_relays": [],
+            "staturl": "http://183.57.151.135:8080/stat"
+        },
+        {
+            "other_recv": {
+                "bytes_in": 3584709529,
+                "bw_in": 2347128,
+                "up_conn": 6,
+                "send_time_95peak": 1398,
+                "send_time_ave": 421,
+                "send_time_peak": 1398
+            },
+            "mode_id": 0,
+            "5min_conn": 0,
+            "pid": 1505,
+            "updated_at": "2017-04-28 10:03:52",
+            "public_ip": [
+                "183.57.151.121"
+            ],
+            "area_list": 3,
+            "private_ip": [
+                "192.168.2.245"
+            ],
+            "queues_ave": 0,
+            "upload_width": 500,
+            "uptime": 551556,
+            "queues_95peak": 0,
+            "area": "佛山",
+            "cid_area": "0-9",
+            "bytes_in": 167193942559,
+            "hostname": "fs-sto24",
+            "bw_in": 2326800,
+            "upload_connections": 1000,
+            "port": 1935,
+            "cid_id": 2,
+            "ip": [
+                "183.57.151.121",
+                "192.168.2.245"
+            ],
+            "sort": 26,
+            "timeout": false,
+            "timestamp": 1493345032,
+            "bytes_out": 2033812465,
+            "down_conn": 0,
+            "other_send": [],
+            "download_width": 500,
+            "address": "fs-sto24:1935",
+            "down_host": [
+                "客户端:1935",
+                ":1935"
+            ],
+            "viwers": 0,
+            "naccepted": 2377,
+            "isp": "电信",
+            "bw_out": 168,
+            "up_conn": 6,
+            "mode": "C0源转发",
+            "download_connections": 500,
+            "up_host": [
+                "客户端:1935",
+                ":1935"
+            ],
+            "queues_peak": 0,
+            "recv_relays": [],
+            "_id": null,
+            "send_relays": [],
+            "staturl": "http://183.57.151.121:8080/stat"
+        },
+        {
+            "other_recv": {
+                "bytes_in": 169863337742,
+                "bw_in": 183881192,
+                "up_conn": 669,
+                "send_time_95peak": 1800,
+                "send_time_ave": 495,
+                "send_time_peak": 12171
+            },
+            "mode_id": 0,
+            "5min_conn": 37,
+            "pid": 20507,
+            "updated_at": "2017-04-28 10:03:48",
+            "public_ip": [
+                "122.226.181.115"
+            ],
+            "area_list": 2,
+            "private_ip": [
+                "192.168.2.220"
+            ],
+            "queues_ave": 1,
+            "upload_width": 500,
+            "uptime": 759692,
+            "queues_95peak": 1,
+            "area": "台州",
+            "cid_area": "0-9",
+            "bytes_in": 10424502368946,
+            "hostname": "tz-sto3",
+            "bw_in": 187085136,
+            "upload_connections": 1000,
+            "port": 1935,
+            "cid_id": 2,
+            "ip": [
+                "122.226.181.115",
+                "192.168.2.220"
+            ],
+            "sort": 27,
+            "timeout": false,
+            "timestamp": 1493345028,
+            "bytes_out": 121335005031,
+            "down_conn": 3,
+            "other_send": {
+                "down_conn": 3,
+                "queues_peak": 1,
+                "queues_ave": 1,
+                "queues_95peak": 1
+            },
+            "download_width": 500,
+            "address": "tz-sto3:1935",
+            "down_host": [
+                "客户端:1935",
+                ":1935"
+            ],
+            "viwers": 3,
+            "naccepted": 324287,
+            "isp": "电信",
+            "bw_out": 1467424,
+            "up_conn": 669,
+            "mode": "C0源转发",
+            "download_connections": 500,
+            "up_host": [
+                "客户端:1935",
+                ":1935"
+            ],
+            "queues_peak": 1,
+            "recv_relays": [],
+            "_id": null,
+            "send_relays": [],
+            "staturl": "http://122.226.181.115:8080/stat"
+        },
+        {
+            "other_recv": {
+                "bytes_in": 120456088331,
+                "bw_in": 165784488,
+                "up_conn": 676,
+                "send_time_95peak": 1259,
+                "send_time_ave": 379,
+                "send_time_peak": 8335
+            },
+            "mode_id": 0,
+            "5min_conn": 47,
+            "pid": 8243,
+            "updated_at": "2017-04-28 10:03:49",
+            "public_ip": [
+                "183.57.151.131"
+            ],
+            "area_list": 3,
+            "private_ip": [
+                "192.168.2.250"
+            ],
+            "queues_ave": 1,
+            "upload_width": 300,
+            "uptime": 760445,
+            "queues_95peak": 1,
+            "area": "佛山",
+            "cid_area": "5-9",
+            "bytes_in": 10255706523072,
+            "hostname": "fs-sto19",
+            "bw_in": 165909552,
+            "upload_connections": 300,
+            "port": 1935,
+            "cid_id": 3,
+            "ip": [
+                "183.57.151.131",
+                "192.168.2.250"
+            ],
+            "sort": 28,
+            "timeout": false,
+            "timestamp": 1493345029,
+            "bytes_out": 118713818310,
+            "down_conn": 5,
+            "other_send": {
+                "down_conn": 5,
+                "queues_peak": 1,
+                "queues_ave": 1,
+                "queues_95peak": 1
+            },
+            "download_width": 100,
+            "address": "fs-sto19:1935",
+            "down_host": [
+                "cs-hhy-a2-05-sto6:1961",
+                "wh-relay1:1935",
+                "fs-relay7:1935",
+                "客户端:1935",
+                ":1935"
+            ],
+            "viwers": 5,
+            "naccepted": 713113,
+            "isp": "电信",
+            "bw_out": 1272544,
+            "up_conn": 676,
+            "mode": "E0源转发",
+            "download_connections": 100,
+            "up_host": [
+                "客户端:1935",
+                ":1935"
+            ],
+            "queues_peak": 1,
+            "recv_relays": [],
+            "_id": null,
+            "send_relays": [],
+            "staturl": "http://183.57.151.131:8080/stat"
+        },
+        {
+            "other_recv": [],
+            "mode_id": 0,
+            "5min_conn": 50,
+            "pid": 30373,
+            "updated_at": "2017-04-28 10:03:43",
+            "public_ip": [
+                "103.38.42.74"
+            ],
+            "area_list": 4,
+            "private_ip": [
+                "192.168.2.7"
+            ],
+            "queues_ave": 1,
+            "upload_width": 300,
+            "uptime": 103208,
+            "queues_95peak": 1,
+            "area": "长沙",
+            "cid_area": "5-9",
+            "bytes_in": 106077001696,
+            "hostname": "cs-hhy-a2-05-sto6",
+            "bw_in": 20017976,
+            "upload_connections": 1500,
+            "port": 1961,
+            "cid_id": 3,
+            "ip": [
+                "103.38.42.74",
+                "192.168.2.7"
+            ],
+            "sort": 29,
+            "timeout": false,
+            "timestamp": 1493345023,
+            "bytes_out": 297784200832,
+            "down_conn": 958,
+            "other_send": [],
+            "download_width": 200,
+            "address": "cs-hhy-a2-05-sto6:1961",
+            "down_host": [
+                "jnan-relay1:1935",
+                "tz-relay9:1935",
+                "sjz-relay8:1935",
+                ":1935"
+            ],
+            "viwers": 0,
+            "naccepted": 19938,
+            "isp": "BGP",
+            "bw_out": 58696056,
+            "up_conn": 320,
+            "mode": "跨网中转5-9-fs->sjz",
+            "download_connections": 1000,
+            "up_host": [
+                "fs-relay5:1935",
+                "fs-relay6:1935",
+                ":1935"
+            ],
+            "queues_peak": 1,
+            "recv_relays": [
+                {
+                    "bytes_in": 17318931828,
+                    "hostname": "fs-sto17",
+                    "bw_in": 21688800,
+                    "up_conn": 320,
+                    "send_time_95peak": 382,
+                    "address": "fs-sto17:1935",
+                    "send_time_ave": 213,
+                    "port": 1935,
+                    "send_time_peak": 8572
+                }
+            ],
+            "_id": null,
+            "send_relays": [
+                {
+                    "queues_95peak": 1,
+                    "hostname": "cs-hhy-a2-05-sto7",
+                    "port": 1935,
+                    "down_conn": 320,
+                    "is_lan": true,
+                    "address": "cs-hhy-a2-05-sto7:1935",
+                    "queues_peak": 1,
+                    "queues_ave": 1
+                },
+                {
+                    "queues_95peak": 1,
+                    "hostname": "jnan-relay1",
+                    "port": 1935,
+                    "down_conn": 319,
+                    "is_lan": false,
+                    "address": "jnan-relay1:1935",
+                    "queues_peak": 1,
+                    "queues_ave": 1
+                },
+                {
+                    "queues_95peak": 1,
+                    "hostname": "sjz-relay8",
+                    "port": 1935,
+                    "down_conn": 319,
+                    "is_lan": false,
+                    "address": "sjz-relay8:1935",
+                    "queues_peak": 1,
+                    "queues_ave": 1
+                }
+            ],
+            "staturl": "http://103.38.42.74:8083/stat"
+        },
+        {
+            "other_recv": [],
+            "mode_id": 0,
+            "5min_conn": 41,
+            "pid": 228318,
+            "updated_at": "2017-04-28 10:03:40",
+            "public_ip": [
+                "119.188.138.201"
+            ],
+            "area_list": 0,
+            "private_ip": [
+                ""
+            ],
+            "queues_ave": 0,
+            "upload_width": 500,
+            "uptime": 824992,
+            "queues_95peak": 0,
+            "area": "jnan",
+            "cid_area": "5-9",
+            "bytes_in": 281054959166,
+            "hostname": "jnan-relay1",
+            "bw_in": 29706752,
+            "upload_connections": 1000,
+            "port": 1935,
+            "cid_id": 3,
+            "ip": [
+                "119.188.138.201",
+                ""
+            ],
+            "sort": 30,
+            "timeout": false,
+            "timestamp": 1493345020,
+            "bytes_out": 3850051227,
+            "down_conn": 0,
+            "other_send": [],
+            "download_width": 500,
+            "address": "jnan-relay1:1935",
+            "down_host": [
+                "客户端:1935",
+                ":1935"
+            ],
+            "viwers": 0,
+            "naccepted": 60432,
+            "isp": "联通",
+            "bw_out": 29248,
+            "up_conn": 494,
+            "mode": "外网边缘",
+            "download_connections": 1000,
+            "up_host": [
+                "sjz-relay6:1935",
+                "tz-relay8:1961",
+                ":1935",
+                "sjz-relay2:1935"
+            ],
+            "queues_peak": 0,
+            "recv_relays": [
+                {
+                    "bytes_in": 16976704236,
+                    "hostname": "cs-hhy-a2-05-sto6",
+                    "bw_in": 21425768,
+                    "up_conn": 319,
+                    "send_time_95peak": 196,
+                    "address": "cs-hhy-a2-05-sto6:1961",
+                    "send_time_ave": 193,
+                    "port": 1961,
+                    "send_time_peak": 236
+                },
+                {
+                    "bytes_in": 4333915333,
+                    "hostname": "cs-hhy-a2-05-sto4",
+                    "bw_in": 5821968,
+                    "up_conn": 81,
+                    "send_time_95peak": 199,
+                    "address": "cs-hhy-a2-05-sto4:1935",
+                    "send_time_ave": 193,
+                    "port": 1935,
+                    "send_time_peak": 228
+                },
+                {
+                    "bytes_in": 2742478144,
+                    "hostname": "tz-relay6",
+                    "bw_in": 301264,
+                    "up_conn": 1,
+                    "send_time_95peak": 193,
+                    "address": "tz-relay6:1935",
+                    "send_time_ave": 193,
+                    "port": 1935,
+                    "send_time_peak": 193
+                },
+                {
+                    "bytes_in": 2045505962,
+                    "hostname": "61.55.189.150",
+                    "bw_in": 5344320,
+                    "up_conn": 93,
+                    "send_time_95peak": 161,
+                    "address": "61.55.189.150:1935",
+                    "send_time_ave": 108,
+                    "port": 1935,
+                    "send_time_peak": 162
+                }
+            ],
+            "_id": null,
+            "send_relays": [],
+            "staturl": "http://119.188.138.201:8080/stat"
+        },
+        {
+            "other_recv": [],
+            "mode_id": 0,
+            "5min_conn": 44,
+            "pid": 30433,
+            "updated_at": "2017-04-28 10:03:53",
+            "public_ip": [
+                "103.38.42.74"
+            ],
+            "area_list": 4,
+            "private_ip": [
+                "192.168.2.7"
+            ],
+            "queues_ave": 1,
+            "upload_width": 300,
+            "uptime": 103212,
+            "queues_95peak": 1,
+            "area": "长沙",
+            "cid_area": "5-9",
+            "bytes_in": 19968211559,
+            "hostname": "cs-hhy-a2-05-sto6",
+            "bw_in": 4680472,
+            "upload_connections": 1500,
+            "port": 1971,
+            "cid_id": 3,
+            "ip": [
+                "103.38.42.74",
+                "192.168.2.7"
+            ],
+            "sort": 31,
+            "timeout": false,
+            "timestamp": 1493345033,
+            "bytes_out": 57790771490,
+            "down_conn": 276,
+            "other_send": [],
+            "download_width": 200,
+            "address": "cs-hhy-a2-05-sto6:1971",
+            "down_host": [
+                "fs-relay7:1935",
+                "tz-relay9:1935",
+                "wh-relay1:1935",
+                ":1935"
+            ],
+            "viwers": 0,
+            "naccepted": 3179,
+            "isp": "BGP",
+            "bw_out": 13996720,
+            "up_conn": 92,
+            "mode": "跨网中转5-9-sjz->fs",
+            "download_connections": 1000,
+            "up_host": [
+                "sjz-relay6:1935",
+                ":1935",
+                "sjz-relay2:1935"
+            ],
+            "queues_peak": 1,
+            "recv_relays": [
+                {
+                    "bytes_in": 2079396369,
+                    "hostname": "61.55.189.150",
+                    "bw_in": 5286184,
+                    "up_conn": 92,
+                    "send_time_95peak": 198,
+                    "address": "61.55.189.150:1935",
+                    "send_time_ave": 197,
+                    "port": 1935,
+                    "send_time_peak": 428
+                }
+            ],
+            "_id": null,
+            "send_relays": [
+                {
+                    "queues_95peak": 1,
+                    "hostname": "cs-hhy-a2-05-sto7",
+                    "port": 1935,
+                    "down_conn": 92,
+                    "is_lan": true,
+                    "address": "cs-hhy-a2-05-sto7:1935",
+                    "queues_peak": 1,
+                    "queues_ave": 1
+                },
+                {
+                    "queues_95peak": 1,
+                    "hostname": "fs-sto20",
+                    "port": 1935,
+                    "down_conn": 92,
+                    "is_lan": false,
+                    "address": "fs-sto20:1935",
+                    "queues_peak": 1,
+                    "queues_ave": 1
+                },
+                {
+                    "queues_95peak": 1,
+                    "hostname": "wh-relay1",
+                    "port": 1935,
+                    "down_conn": 92,
+                    "is_lan": false,
+                    "address": "wh-relay1:1935",
+                    "queues_peak": 1,
+                    "queues_ave": 1
+                }
+            ],
+            "staturl": "http://103.38.42.74:8084/stat"
+        },
+        {
+            "other_recv": [],
+            "mode_id": 0,
+            "5min_conn": 42,
+            "pid": 73315,
+            "updated_at": "2017-04-28 10:03:41",
+            "public_ip": [
+                "116.211.122.138"
+            ],
+            "area_list": 0,
+            "private_ip": [
+                ""
+            ],
+            "queues_ave": 1,
+            "upload_width": 500,
+            "uptime": 824992,
+            "queues_95peak": 1,
+            "area": "wh",
+            "cid_area": "5-9",
+            "bytes_in": 289092335314,
+            "hostname": "wh-relay1",
+            "bw_in": 31618016,
+            "upload_connections": 1000,
+            "port": 1935,
+            "cid_id": 3,
+            "ip": [
+                "116.211.122.138",
+                ""
+            ],
+            "sort": 32,
+            "timeout": false,
+            "timestamp": 1493345021,
+            "bytes_out": 14286381002,
+            "down_conn": 1,
+            "other_send": {
+                "down_conn": 1,
+                "queues_peak": 1,
+                "queues_ave": 1,
+                "queues_95peak": 1
+            },
+            "download_width": 500,
+            "address": "wh-relay1:1935",
+            "down_host": [
+                "客户端:1935",
+                ":1935"
+            ],
+            "viwers": 1,
+            "naccepted": 126341,
+            "isp": "电信",
+            "bw_out": 2041288,
+            "up_conn": 495,
+            "mode": "外网边缘",
+            "download_connections": 1000,
+            "up_host": [
+                "tz-relay8:1971",
+                "fs-relay5:1935",
+                "fs-relay6:1935",
+                ":1935"
+            ],
+            "queues_peak": 1,
+            "recv_relays": [
+                {
+                    "bytes_in": 4817259400,
+                    "hostname": "cs-hhy-a2-05-sto4",
+                    "bw_in": 5674392,
+                    "up_conn": 81,
+                    "send_time_95peak": 88,
+                    "address": "cs-hhy-a2-05-sto4:1935",
+                    "send_time_ave": 83,
+                    "port": 1935,
+                    "send_time_peak": 89
+                },
+                {
+                    "bytes_in": 2752913142,
+                    "hostname": "tz-relay6",
+                    "bw_in": 301264,
+                    "up_conn": 1,
+                    "send_time_95peak": 194,
+                    "address": "tz-relay6:1935",
+                    "send_time_ave": 194,
+                    "port": 1935,
+                    "send_time_peak": 194
+                },
+                {
+                    "bytes_in": 17646111328,
+                    "hostname": "fs-sto17",
+                    "bw_in": 23011616,
+                    "up_conn": 320,
+                    "send_time_95peak": 412,
+                    "address": "fs-sto17:1935",
+                    "send_time_ave": 235,
+                    "port": 1935,
+                    "send_time_peak": 14576
+                },
+                {
+                    "bytes_in": 2038531096,
+                    "hostname": "cs-hhy-a2-05-sto6",
+                    "bw_in": 5087600,
+                    "up_conn": 93,
+                    "send_time_95peak": 88,
+                    "address": "cs-hhy-a2-05-sto6:1971",
+                    "send_time_ave": 83,
+                    "port": 1971,
+                    "send_time_peak": 89
+                }
+            ],
+            "_id": null,
+            "send_relays": [],
+            "staturl": "http://116.211.122.138:8080/stat"
+        },
+        {
+            "other_recv": {
+                "bytes_in": 109051415581,
+                "bw_in": 91473256,
+                "up_conn": 320,
+                "send_time_95peak": 1568,
+                "send_time_ave": 92066,
+                "send_time_peak": 11968723
+            },
+            "mode_id": 0,
+            "5min_conn": 49,
+            "pid": 11314,
+            "updated_at": "2017-04-28 10:03:50",
+            "public_ip": [
+                "183.57.151.101"
+            ],
+            "area_list": 3,
+            "private_ip": [
+                "192.168.2.241"
+            ],
+            "queues_ave": 1,
+            "upload_width": 300,
+            "uptime": 760444,
+            "queues_95peak": 1,
+            "area": "佛山",
+            "cid_area": "5-9",
+            "bytes_in": 1146129306914,
+            "hostname": "fs-sto17",
+            "bw_in": 92115120,
+            "upload_connections": 1500,
+            "port": 1935,
+            "cid_id": 3,
+            "ip": [
+                "183.57.151.101",
+                "192.168.2.241"
+            ],
+            "sort": 33,
+            "timeout": false,
+            "timestamp": 1493345030,
+            "bytes_out": 565697765772,
+            "down_conn": 960,
+            "other_send": [],
+            "download_width": 100,
+            "address": "fs-sto17:1935",
+            "down_host": [
+                "cs-hhy-a2-05-sto6:1961",
+                "wh-relay1:1935",
+                "fs-relay7:1935",
+                "客户端:1935",
+                ":1935"
+            ],
+            "viwers": 0,
+            "naccepted": 120327,
+            "isp": "电信",
+            "bw_out": 59635104,
+            "up_conn": 320,
+            "mode": "D0源转发",
+            "download_connections": 500,
+            "up_host": [
+                "客户端:1935",
+                ":1935"
+            ],
+            "queues_peak": 1,
+            "recv_relays": [],
+            "_id": null,
+            "send_relays": [
+                {
+                    "queues_95peak": 1,
+                    "hostname": "cs-hhy-a2-05-sto6",
+                    "port": 1961,
+                    "down_conn": 320,
+                    "is_lan": false,
+                    "address": "cs-hhy-a2-05-sto6:1961",
+                    "queues_peak": 1,
+                    "queues_ave": 1
+                },
+                {
+                    "queues_95peak": 1,
+                    "hostname": "fs-sto20",
+                    "port": 1935,
+                    "down_conn": 320,
+                    "is_lan": true,
+                    "address": "fs-sto20:1935",
+                    "queues_peak": 1,
+                    "queues_ave": 1
+                },
+                {
+                    "queues_95peak": 1,
+                    "hostname": "wh-relay1",
+                    "port": 1935,
+                    "down_conn": 320,
+                    "is_lan": false,
+                    "address": "wh-relay1:1935",
+                    "queues_peak": 1,
+                    "queues_ave": 1
+                }
+            ],
+            "staturl": "http://183.57.151.101:8080/stat"
+        },
+        {
+            "other_recv": {
+                "bytes_in": 128112745827,
+                "bw_in": 124266272,
+                "up_conn": 479,
+                "send_time_95peak": 1468,
+                "send_time_ave": 442,
+                "send_time_peak": 10163
+            },
+            "mode_id": 0,
+            "5min_conn": 21,
+            "pid": 26873,
+            "updated_at": "2017-04-28 10:03:40",
+            "public_ip": [
+                "61.55.189.173"
+            ],
+            "area_list": 1,
+            "private_ip": [
+                "192.168.2.231"
+            ],
+            "queues_ave": 1,
+            "upload_width": 300,
+            "uptime": 760035,
+            "queues_95peak": 1,
+            "area": "石家庄",
+            "cid_area": "5-9",
+            "bytes_in": 6719703659909,
+            "hostname": "sjz-relay7",
+            "bw_in": 123743480,
+            "upload_connections": 300,
+            "port": 1935,
+            "cid_id": 3,
+            "ip": [
+                "61.55.189.173",
+                "192.168.2.231"
+            ],
+            "sort": 34,
+            "timeout": false,
+            "timestamp": 1493345020,
+            "bytes_out": 133510092217,
+            "down_conn": 1,
+            "other_send": {
+                "down_conn": 1,
+                "queues_peak": 1,
+                "queues_ave": 1,
+                "queues_95peak": 1
+            },
+            "download_width": 100,
+            "address": "sjz-relay7:1935",
+            "down_host": [
+                "sjz-relay8:1935",
+                "jnan-relay1:1935",
+                "cs-hhy-a2-05-sto6:1971",
+                "客户端:1935",
+                ":1935"
+            ],
+            "viwers": 1,
+            "naccepted": 197760,
+            "isp": "联通",
+            "bw_out": 78368,
+            "up_conn": 479,
+            "mode": "E0源转发",
+            "download_connections": 100,
+            "up_host": [
+                "客户端:1935",
+                ":1935"
+            ],
+            "queues_peak": 1,
+            "recv_relays": [],
+            "_id": null,
+            "send_relays": [],
+            "staturl": "http://61.55.189.173:8080/stat"
+        },
+        {
+            "other_recv": {
+                "bytes_in": 88931812708,
+                "bw_in": 105997024,
+                "up_conn": 485,
+                "send_time_95peak": 1250,
+                "send_time_ave": 464,
+                "send_time_peak": 6908
+            },
+            "mode_id": 0,
+            "5min_conn": 39,
+            "pid": 30000,
+            "updated_at": "2017-04-28 10:03:43",
+            "public_ip": [
+                "103.38.42.74"
+            ],
+            "area_list": 4,
+            "private_ip": [
+                "192.168.2.7"
+            ],
+            "queues_ave": 1,
+            "upload_width": 300,
+            "uptime": 103367,
+            "queues_95peak": 1,
+            "area": "长沙",
+            "cid_area": "5-9",
+            "bytes_in": 822877094877,
+            "hostname": "cs-hhy-a2-05-sto6",
+            "bw_in": 107732144,
+            "upload_connections": 300,
+            "port": 1935,
+            "cid_id": 3,
+            "ip": [
+                "103.38.42.74",
+                "192.168.2.7"
+            ],
+            "sort": 35,
+            "timeout": false,
+            "timestamp": 1493345023,
+            "bytes_out": 9373762028,
+            "down_conn": 1,
+            "other_send": {
+                "down_conn": 1,
+                "queues_peak": 1,
+                "queues_ave": 1,
+                "queues_95peak": 1
+            },
+            "download_width": 100,
+            "address": "cs-hhy-a2-05-sto6:1935",
+            "down_host": [
+                "wh-relay1:1935",
+                "cs-hhy-a2-05-sto7:1935",
+                "jnan-relay1:1935",
+                ":1935",
+                "sjz-relay8:1935",
+                "fs-relay7:1935",
+                "客户端:1935"
+            ],
+            "viwers": 1,
+            "naccepted": 37851,
+            "isp": "BGP",
+            "bw_out": 521376,
+            "up_conn": 485,
+            "mode": "E0源转发",
+            "download_connections": 100,
+            "up_host": [
+                "客户端:1935",
+                ":1935"
+            ],
+            "queues_peak": 1,
+            "recv_relays": [],
+            "_id": null,
+            "send_relays": [],
+            "staturl": "http://103.38.42.74:8080/stat"
+        },
+        {
+            "other_recv": {
+                "bytes_in": 37071196723,
+                "bw_in": 26271072,
+                "up_conn": 81,
+                "send_time_95peak": 1475,
+                "send_time_ave": 548,
+                "send_time_peak": 5055
+            },
+            "mode_id": 0,
+            "5min_conn": 102,
+            "pid": 9719,
+            "updated_at": "2017-04-28 10:03:40",
+            "public_ip": [
+                "103.38.42.72"
+            ],
+            "area_list": 4,
+            "private_ip": [
+                "192.168.2.5"
+            ],
+            "queues_ave": 1,
+            "upload_width": 300,
+            "uptime": 103367,
+            "queues_95peak": 1,
+            "area": "长沙",
+            "cid_area": "5-9",
+            "bytes_in": 94997939198,
+            "hostname": "cs-hhy-a2-05-sto4",
+            "bw_in": 26491904,
+            "upload_connections": 1500,
+            "port": 1935,
+            "cid_id": 3,
+            "ip": [
+                "103.38.42.72",
+                "192.168.2.5"
+            ],
+            "sort": 36,
+            "timeout": false,
+            "timestamp": 1493345020,
+            "bytes_out": 99989704945,
+            "down_conn": 405,
+            "other_send": [],
+            "download_width": 100,
+            "address": "cs-hhy-a2-05-sto4:1935",
+            "down_host": [
+                "wh-relay1:1935",
+                "cs-hhy-a2-05-sto7:1935",
+                "jnan-relay1:1935",
+                ":1935",
+                "sjz-relay8:1935",
+                "fs-relay7:1935",
+                "客户端:1935"
+            ],
+            "viwers": 0,
+            "naccepted": 6066,
+            "isp": "BGP",
+            "bw_out": 26735464,
+            "up_conn": 81,
+            "mode": "D0源转发",
+            "download_connections": 500,
+            "up_host": [
+                "客户端:1935",
+                ":1935"
+            ],
+            "queues_peak": 1,
+            "recv_relays": [],
+            "_id": null,
+            "send_relays": [
+                {
+                    "queues_95peak": 1,
+                    "hostname": "cs-hhy-a2-05-sto7",
+                    "port": 1935,
+                    "down_conn": 81,
+                    "is_lan": true,
+                    "address": "cs-hhy-a2-05-sto7:1935",
+                    "queues_peak": 1,
+                    "queues_ave": 1
+                },
+                {
+                    "queues_95peak": 1,
+                    "hostname": "fs-sto20",
+                    "port": 1935,
+                    "down_conn": 81,
+                    "is_lan": false,
+                    "address": "fs-sto20:1935",
+                    "queues_peak": 1,
+                    "queues_ave": 1
+                },
+                {
+                    "queues_95peak": 1,
+                    "hostname": "jnan-relay1",
+                    "port": 1935,
+                    "down_conn": 81,
+                    "is_lan": false,
+                    "address": "jnan-relay1:1935",
+                    "queues_peak": 1,
+                    "queues_ave": 1
+                },
+                {
+                    "queues_95peak": 1,
+                    "hostname": "wh-relay1",
+                    "port": 1935,
+                    "down_conn": 81,
+                    "is_lan": false,
+                    "address": "wh-relay1:1935",
+                    "queues_peak": 1,
+                    "queues_ave": 1
+                },
+                {
+                    "queues_95peak": 1,
+                    "hostname": "sjz-relay8",
+                    "port": 1935,
+                    "down_conn": 81,
+                    "is_lan": false,
+                    "address": "sjz-relay8:1935",
+                    "queues_peak": 1,
+                    "queues_ave": 1
+                }
+            ],
+            "staturl": "http://103.38.42.72:8080/stat"
+        },
+        {
+            "5min_conn": 0,
+            "area_id": 2,
+            "other_recv": {
+                "bytes_in": 17632919145,
+                "bw_in": 1378584,
+                "up_conn": 1,
+                "send_time_95peak": 3653,
+                "send_time_ave": 3653,
+                "send_time_peak": 3653
+            },
+            "mode_id": 0,
+            "ip": [
+                "122.226.181.28",
+                "60.12.69.107",
+                "192.168.2.214"
+            ],
+            "pid": 5205,
+            "updated_at": "2017-04-28 10:03:52",
+            "public_ip": [
+                "122.226.181.28",
+                "60.12.69.107"
+            ],
+            "area_list": 2,
+            "private_ip": [
+                "192.168.2.214"
+            ],
+            "port": 1935,
+            "upload_width": 300,
+            "uptime": 759707,
+            "queues_95peak": 1,
+            "area": "台州",
+            "cid_area": "5-9",
+            "bytes_in": 109912770752,
+            "hostname": "tz-relay6",
+            "bw_in": 1225464,
+            "upload_connections": 1500,
+            "cid_id": 3,
+            "bytes_out": 67050851440,
+            "local_address": "tz-relay6:1935",
+            "sort": 37,
+            "timeout": false,
+            "timestamp": 1493345032,
+            "down_conn": 4,
+            "other_send": [],
+            "download_width": 100,
+            "address": "tz-relay6:1935",
+            "down_host": [
+                "wh-relay1:1935",
+                "jnan-relay1:1935",
+                ":1935",
+                "sjz-relay8:1935",
+                "fs-relay7:1935",
+                "tz-relay9:1935",
+                "客户端:1935"
+            ],
+            "viwers": 0,
+            "naccepted": 27,
+            "queues_ave": 1,
+            "isp": "双线",
+            "bw_out": 1146448,
+            "up_conn": 1,
+            "mode": "D0源转发",
+            "download_connections": 500,
+            "up_host": [
+                "客户端:1935",
+                ":1935"
+            ],
+            "queues_peak": 1,
+            "recv_relays": [],
+            "_id": null,
+            "send_relays": [
+                {
+                    "queues_95peak": 1,
+                    "hostname": "wh-relay1",
+                    "port": 1935,
+                    "down_conn": 1,
+                    "is_lan": false,
+                    "address": "wh-relay1:1935",
+                    "queues_peak": 1,
+                    "queues_ave": 1
+                },
+                {
+                    "queues_95peak": 1,
+                    "hostname": "jnan-relay1",
+                    "port": 1935,
+                    "down_conn": 1,
+                    "is_lan": false,
+                    "address": "jnan-relay1:1935",
+                    "queues_peak": 1,
+                    "queues_ave": 1
+                },
+                {
+                    "queues_95peak": 1,
+                    "hostname": "tz-relay9",
+                    "port": 1935,
+                    "down_conn": 1,
+                    "is_lan": true,
+                    "address": "tz-relay9:1935",
+                    "queues_peak": 1,
+                    "queues_ave": 1
+                },
+                {
+                    "queues_95peak": 1,
+                    "hostname": "sjz-relay8",
+                    "port": 1935,
+                    "down_conn": 1,
+                    "is_lan": false,
+                    "address": "sjz-relay8:1935",
+                    "queues_peak": 1,
+                    "queues_ave": 1
+                }
+            ],
+            "staturl": "http://122.226.181.28:8080/stat"
+        },
+        {
+            "5min_conn": 37,
+            "area_id": 2,
+            "other_recv": {
+                "bytes_in": 165521265830,
+                "bw_in": 161171752,
+                "up_conn": 625,
+                "send_time_95peak": 949,
+                "send_time_ave": 368,
+                "send_time_peak": 10499
+            },
+            "mode_id": 0,
+            "ip": [
+                "122.226.181.119",
+                "60.12.69.218",
+                "192.168.2.242"
+            ],
+            "pid": 4191,
+            "updated_at": "2017-04-28 10:03:46",
+            "public_ip": [
+                "122.226.181.119",
+                "60.12.69.218"
+            ],
+            "area_list": 2,
+            "private_ip": [
+                "192.168.2.242"
+            ],
+            "port": 1935,
+            "upload_width": 300,
+            "uptime": 759692,
+            "queues_95peak": 1,
+            "area": "台州",
+            "cid_area": "5-9",
+            "bytes_in": 10284271427047,
+            "hostname": "tz-relay8",
+            "bw_in": 163713352,
+            "upload_connections": 300,
+            "cid_id": 3,
+            "bytes_out": 122267846461,
+            "local_address": "tz-relay8:1935",
+            "sort": 38,
+            "timeout": false,
+            "timestamp": 1493345026,
+            "down_conn": 11,
+            "other_send": {
+                "down_conn": 11,
+                "queues_peak": 1,
+                "queues_ave": 1,
+                "queues_95peak": 1
+            },
+            "download_width": 100,
+            "address": "tz-relay8:1935",
+            "down_host": [
+                "wh-relay1:1935",
+                "jnan-relay1:1935",
+                ":1935",
+                "sjz-relay8:1935",
+                "fs-relay7:1935",
+                "tz-relay9:1935",
+                "客户端:1935"
+            ],
+            "viwers": 11,
+            "naccepted": 318348,
+            "queues_ave": 1,
+            "isp": "双线",
+            "bw_out": 5759368,
+            "up_conn": 625,
+            "mode": "E0源转发",
+            "download_connections": 100,
+            "up_host": [
+                "客户端:1935",
+                ":1935"
+            ],
+            "queues_peak": 1,
+            "recv_relays": [],
+            "_id": null,
+            "send_relays": [],
+            "staturl": "http://122.226.181.119:8080/stat"
+        }
+    ]
+}

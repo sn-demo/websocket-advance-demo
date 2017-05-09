@@ -1,0 +1,261 @@
+'use strict';
+var MongoClient = require('mongodb').MongoClient;
+var cmdb_url = 'mongodb://localhost/cmdb';
+var ObjectID = require('mongodb').ObjectID;
+
+class Action {
+  constructor(io){
+    this.io = io;
+    MongoClient.connect(cmdb_url,(err,db)=>{
+      this.db = db;
+    });
+  }
+
+  run(socket){
+    if(!this.db){
+      return;
+    }
+    try{
+      //if(!this.memoryData){
+        var memoryData = this.initMemoryData();
+        this.memoryData = memoryData; 
+      //}
+      this.memoryData.then(data=>{
+        var adapterdata = {};
+        try{
+          for(var k in data){
+            var adapterData = this.initTableAdapter(k,data[k]);
+            this.initData(adapterData,socket);
+          }
+        }catch(e){
+          console.log(e);
+        }
+      })
+      this.action(socket);
+    }catch(e){
+      console.log(e)
+    }
+  }
+  //初始化数据适配（发送给前端的数据适配）
+  initTableAdapter(collection,data){
+    var obj = {};
+    obj.collection = collection; 
+    obj.datas = [];
+    data.forEach(v=>{
+      obj.datas.push({
+        type: "initial",
+        value: v,
+      })
+    })
+    return obj;
+  }
+
+  //获取初始化数据
+  async initMemoryData(){
+    var cmdb_data = {};
+    //collection_metas（cmdb配置表说明）
+    var collection_metas = this.db.collection("collection_metas");
+    cmdb_data.collection_metas = await collection_metas.find().toArray();
+    try{
+      for(var i=0;i<cmdb_data.collection_metas.length;i++){
+        var collection_name = cmdb_data.collection_metas[i].collection;
+        var collection_obj = this.db.collection(collection_name);
+        cmdb_data[collection_name] = await collection_obj.find().toArray();
+      }
+    }catch(e){
+      console.log(e);
+    }
+    return cmdb_data;
+  }
+  //初始数据
+  initData(data,socket){
+//console.log(data)
+    data.firstTime = true;
+    socket.emit("DataNotify",data);
+  }
+
+  //通知所有浏览器更新数据
+  noticeAllClientToUpdateData(data){
+    this.io.emit("DataNotify",data);
+  }
+
+  action(socket){
+    socket.on("action",(data,callback)=>{
+      switch(data.actionName){
+        case "NewTable":
+          this.createCollection(data.args,callback);
+        break;
+        case "UpdateData":
+          this.updateData(data.args,callback);
+        break;
+        case "InsertData":
+          this.insertData(data.args,callback);
+        break;
+        case "DeleteData":
+          this.deleteData(data.args,callback);
+        break;
+        case "DeleteTable":
+          this.deleteTable(data.args,callback);
+        break;
+      }
+    });
+  }
+
+  deleteData(data,callback){
+    var collection = this.db.collection(data.collection);
+    var _id = data.filter.id;
+    if(data.filter){
+      data.filter._id = new ObjectID(data.filter._id);
+    }
+    collection.deleteOne(data.filter,async (err,r)=>{
+      //console.log(r.ops,r.Collection);
+      var result = { };
+      if(!err){
+        result = {
+          result: true,
+          message: "删除成功！",
+        };
+        //通知更新
+        var notice_data = {
+          collection: data.collection,
+          datas: [
+            {
+              type: "remove",
+              _id: _id,
+            }
+          ],
+        }
+        this.noticeAllClientToUpdateData(notice_data);
+      }else {
+        result = {
+          result: false,
+          message: "删除失败！",
+        }
+      }
+      callback(result);
+    });
+  }
+
+  insertData(data,callback){
+    var collection = this.db.collection(data.collection);
+    collection.insertOne(data.value,async (err,r)=>{
+      //console.log(r.ops,r.Collection);
+      var result = { };
+      if(!err){
+        result = {
+          result: true,
+          message: "新增成功！",
+          datas: [{
+            _id: r.ops[0]._id
+          }]
+        };
+        //通知更新
+        var notice_data = {
+          collection: data.collection,
+          datas: [
+            {
+              type: "add",
+              value: r.ops[0], 
+            }
+          ],
+        }
+        this.noticeAllClientToUpdateData(notice_data);
+      }else {
+        result = {
+          result: false,
+          message: "新增失败！",
+        }
+      }
+      callback(result);
+    });
+  }
+
+  updateData(data,callback){
+    var collection = this.db.collection(data.collection);
+    data.update._id = new ObjectID(data.update._id);
+    if(data.filter){
+      data.filter._id = new ObjectID(data.filter._id);
+    }
+    //console.log(data)
+    collection.updateOne(data.filter,data.update,async (err,r)=>{
+    //console.log(r)
+      var result = {};
+      if(!err){
+        result = {
+          result: true,
+          message: "操作成功！",
+        }
+        callback(result);
+        //通知更新
+        var notice_data = {
+          collection: data.collection,
+          datas: [
+            {
+              type: "update",
+              value: data.update, 
+            }
+          ],
+        }
+        this.noticeAllClientToUpdateData(notice_data);
+      }else {
+        result = {
+          result: false,
+          message: "操作失败，请重新尝试！",
+        }
+        callback(result);
+      }
+    });
+  }
+
+  createCollection(data,callback){
+    var collection_metas = this.db.collection("collection_metas");
+    collection_metas.insertOne({
+      collection: data.collection,
+      title: data.title,
+      info: data.info,
+    },async (err,r)=>{
+      var result = {};
+      if(!err){
+        result = {
+          result: true,
+          message: "新增成功！",
+          datas: [
+            {
+              _id: r.ops[0]._id,
+            }
+          ], 
+        }
+        //通知更新
+        var notice_data = {
+          collection: "collection_metas",
+          datas: [
+            {
+              type: "add",
+              value: r.ops[0], 
+            }
+          ],
+        }
+        this.noticeAllClientToUpdateData(notice_data);
+      }else {
+        result = {
+          result: false,
+          message: "新增失败，请重新尝试！",
+        }
+      }
+      callback(result);
+    })
+  }
+  //删除集合
+  deleteTable(data,callback){
+    var t_data = {
+      collection: "collection_metas",
+      filter: {
+        _id: data._id,
+      }
+    }
+    this.deleteData(t_data,callback);
+  }
+}
+
+module.exports = Action;
+

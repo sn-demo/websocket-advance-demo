@@ -1,0 +1,549 @@
+{
+    "data": {
+        "server_data": [
+            {
+                "Province": "浙江",
+                "City": "台州",
+                "CityCode": "331000",
+                "CountryCode": "CN",
+                "longitude": 121.27,
+                "latitude": 28.41,
+                "RelayServer": [
+                    {
+                        "CurrentDownSpeed": 280.33024,
+                        "Name": "台州",
+                        "IP": "122.226.181.25:1935",
+                        "TotalUpSpeed": 500,
+                        "CurrentUpSpeed": 2.4576,
+                        "Connections": 544,
+                        "TotalDownSpeed": 500
+                    },
+                    {
+                        "CurrentDownSpeed": 271.64672,
+                        "Name": "台州",
+                        "IP": "122.226.181.27:1935",
+                        "TotalUpSpeed": 500,
+                        "CurrentUpSpeed": 0.73728,
+                        "Connections": 505,
+                        "TotalDownSpeed": 500
+                    },
+                    {
+                        "CurrentDownSpeed": 32.11264,
+                        "Name": "台州",
+                        "IP": "122.226.181.26:1935",
+                        "TotalUpSpeed": 300,
+                        "CurrentUpSpeed": 161.21856,
+                        "Connections": 408,
+                        "TotalDownSpeed": 100
+                    },
+                    {
+                        "CurrentDownSpeed": 0,
+                        "Name": "台州",
+                        "IP": "122.226.181.28:1935",
+                        "TotalUpSpeed": 300,
+                        "CurrentUpSpeed": 0,
+                        "Connections": 0,
+                        "TotalDownSpeed": 100
+                    },
+                    {
+                        "CurrentDownSpeed": 0.98304,
+                        "Name": "台州",
+                        "IP": "122.226.181.29:1935",
+                        "TotalUpSpeed": 100,
+                        "CurrentUpSpeed": 5.07904,
+                        "Connections": 24,
+                        "TotalDownSpeed": 100
+                    },
+                    {
+                        "CurrentDownSpeed": 0,
+                        "Name": "台州",
+                        "IP": "122.226.181.119:1935",
+                        "TotalUpSpeed": 300,
+                        "CurrentUpSpeed": 0,
+                        "Connections": 0,
+                        "TotalDownSpeed": 100
+                    },
+                    {
+                        "CurrentDownSpeed": 1.14688,
+                        "Name": "台州",
+                        "IP": "122.226.182.214:1935",
+                        "TotalUpSpeed": 200,
+                        "CurrentUpSpeed": 0,
+                        "Connections": 2,
+                        "TotalDownSpeed": 200
+                    }
+                ]
+            },
+            {
+                "Province": "广东",
+                "City": "潮州",
+                "longitude": 116.38,
+                "latitude": 23.40,
+                "CityCode": "445100",
+                "CountryCode": "CN",
+                "RelayServer": [
+                    {
+                        "CurrentDownSpeed": 0,
+                        "Name": "潮州",
+                        "IP": "125.91.251.79:1935",
+                        "TotalUpSpeed": 100,
+                        "CurrentUpSpeed": 0,
+                        "Connections": 0,
+                        "TotalDownSpeed": 100
+                    }
+                ]
+            },
+            {
+                "Province": "天津",
+                "City": "天津",
+                "longitude": 117.12,
+                "latitude": 39.02,
+                "CityCode": "120100",
+                "CountryCode": "CN",
+                "RelayServer": [
+                    {
+                        "CurrentDownSpeed": 0,
+                        "Name": "天津",
+                        "IP": "42.81.21.52:1935",
+                        "TotalUpSpeed": 100,
+                        "CurrentUpSpeed": 0,
+                        "Connections": 0,
+                        "TotalDownSpeed": 100
+                    }
+                ]
+            },
+            {
+                "Province": "吉林",
+                "City": "四平",
+                "longitude": 124.22,
+                "latitude": 43.10,
+                "CityCode": "220300",
+                "CountryCode": "CN",
+                "RelayServer": [
+                    {
+                        "CurrentDownSpeed": 0,
+                        "Name": "四平",
+                        "IP": "222.163.198.11:1935",
+                        "TotalUpSpeed": 100,
+                        "CurrentUpSpeed": 0,
+                        "Connections": 0,
+                        "TotalDownSpeed": 100
+                    }
+                ]
+            },
+            {
+                "Province": "广东",
+                "City": "佛山",
+                "longitude": 113.06,
+                "latitude": 23.02,
+                "CityCode": "440600",
+                "CountryCode": "CN",
+                "RelayServer": [
+                    {
+                        "CurrentDownSpeed": 50.7904,
+                        "Name": "佛山",
+                        "IP": "183.57.151.7:1935",
+                        "TotalUpSpeed": 300,
+                        "CurrentUpSpeed": 149.9136,
+                        "Connections": 456,
+                        "TotalDownSpeed": 100
+                    },
+                    {
+                        "CurrentDownSpeed": 75.12064,
+                        "Name": "佛山",
+                        "IP": "183.57.151.111:1935",
+                        "TotalUpSpeed": 300,
+                        "CurrentUpSpeed": 227.57376,
+                        "Connections": 723,
+                        "TotalDownSpeed": 100
+                    },
+                    {
+                        "CurrentDownSpeed": 145.98144,
+                        "Name": "佛山",
+                        "IP": "183.57.151.100:1935",
+                        "TotalUpSpeed": 500,
+                        "CurrentUpSpeed": 2.21184,
+                        "Connections": 287,
+                        "TotalDownSpeed": 500
+                    },
+                    {
+                        "CurrentDownSpeed": 140.73856,
+                        "Name": "佛山",
+                        "IP": "183.57.151.177:1935",
+                        "TotalUpSpeed": 500,
+                        "CurrentUpSpeed": 0.57344,
+                        "Connections": 296,
+                        "TotalDownSpeed": 500
+                    },
+                    {
+                        "CurrentDownSpeed": 4.75136,
+                        "Name": "佛山",
+                        "IP": "183.57.151.139:1935",
+                        "TotalUpSpeed": 300,
+                        "CurrentUpSpeed": 14.25408,
+                        "Connections": 32,
+                        "TotalDownSpeed": 100
+                    },
+                    {
+                        "CurrentDownSpeed": 3.03104,
+                        "Name": "佛山",
+                        "IP": "183.57.151.161:1935",
+                        "TotalUpSpeed": 300,
+                        "CurrentUpSpeed": 9.33888,
+                        "Connections": 24,
+                        "TotalDownSpeed": 100
+                    },
+                    {
+                        "CurrentDownSpeed": 237.89568,
+                        "Name": "佛山",
+                        "IP": "183.57.151.235:1935",
+                        "TotalUpSpeed": 500,
+                        "CurrentUpSpeed": 2.94912,
+                        "Connections": 588,
+                        "TotalDownSpeed": 500
+                    }
+                ]
+            },
+            {
+                "Province": "湖南",
+                "City": "长沙",
+                "longitude": 112.59,
+                "latitude": 28.12,
+                "CityCode": "430100",
+                "CountryCode": "CN",
+                "RelayServer": [
+                    {
+                        "CurrentDownSpeed": 0,
+                        "Name": "长沙",
+                        "IP": "175.6.18.161:1935",
+                        "TotalUpSpeed": 100,
+                        "CurrentUpSpeed": 0,
+                        "Connections": 0,
+                        "TotalDownSpeed": 100
+                    },
+                    {
+                        "CurrentDownSpeed": 0,
+                        "Name": "长沙",
+                        "IP": "175.6.9.194:1935",
+                        "TotalUpSpeed": 100,
+                        "CurrentUpSpeed": 0,
+                        "Connections": 0,
+                        "TotalDownSpeed": 100
+                    }
+                ]
+            },
+            {
+                "Province": "辽宁",
+                "City": "铁岭",
+                "longitude": 123.51,
+                "latitude": 42.18,
+                "CityCode": "211200",
+                "CountryCode": "CN",
+                "RelayServer": [
+                    {
+                        "CurrentDownSpeed": 0,
+                        "Name": "铁岭",
+                        "IP": "218.24.17.28:1935",
+                        "TotalUpSpeed": 100,
+                        "CurrentUpSpeed": 0,
+                        "Connections": 0,
+                        "TotalDownSpeed": 100
+                    }
+                ]
+            },
+            {
+                "Province": "陕西",
+                "City": "宝鸡",
+                "longitude": 107.09,
+                "latitude": 34.22,
+                "CityCode": "610300",
+                "CountryCode": "CN",
+                "RelayServer": [
+                    {
+                        "CurrentDownSpeed": 0,
+                        "Name": "宝鸡",
+                        "IP": "123.138.245.13:1935",
+                        "TotalUpSpeed": 200,
+                        "CurrentUpSpeed": 0,
+                        "Connections": 0,
+                        "TotalDownSpeed": 200
+                    }
+                ]
+            }
+        ],
+        "device_data": [
+            {
+                "Province": "贵州",
+                "UdpActiveCameras": 3,
+                "CountryCode": "CN",
+                "Country": "中国",
+                "RtmpActiveCameras": 17,
+                "ActiveUsers": 3
+            },
+            {
+                "Province": "河南",
+                "UdpActiveCameras": 42,
+                "CountryCode": "CN",
+                "Country": "中国",
+                "RtmpActiveCameras": 87,
+                "ActiveUsers": 11
+            },
+            {
+                "Province": "山东",
+                "UdpActiveCameras": 74,
+                "CountryCode": "CN",
+                "Country": "中国",
+                "RtmpActiveCameras": 140,
+                "ActiveUsers": 27
+            },
+            {
+                "Province": "四川",
+                "UdpActiveCameras": 52,
+                "CountryCode": "CN",
+                "Country": "中国",
+                "RtmpActiveCameras": 134,
+                "ActiveUsers": 10
+            },
+            {
+                "Province": "香港",
+                "UdpActiveCameras": 2,
+                "CountryCode": "HK",
+                "Country": "中国",
+                "RtmpActiveCameras": 5,
+                "ActiveUsers": 2
+            },
+            {
+                "Province": "江苏",
+                "UdpActiveCameras": 66,
+                "CountryCode": "CN",
+                "Country": "中国",
+                "RtmpActiveCameras": 403,
+                "ActiveUsers": 21
+            },
+            {
+                "Province": "青海",
+                "UdpActiveCameras": 1,
+                "CountryCode": "CN",
+                "Country": "中国",
+                "RtmpActiveCameras": 0,
+                "ActiveUsers": 0
+            },
+            {
+                "Province": "新疆",
+                "UdpActiveCameras": 8,
+                "CountryCode": "CN",
+                "Country": "中国",
+                "RtmpActiveCameras": 8,
+                "ActiveUsers": 1
+            },
+            {
+                "Province": "福建",
+                "UdpActiveCameras": 46,
+                "CountryCode": "CN",
+                "Country": "中国",
+                "RtmpActiveCameras": 177,
+                "ActiveUsers": 11
+            },
+            {
+                "Province": "浙江",
+                "UdpActiveCameras": 49,
+                "CountryCode": "CN",
+                "Country": "中国",
+                "RtmpActiveCameras": 149,
+                "ActiveUsers": 16
+            },
+            {
+                "Province": "湖北",
+                "UdpActiveCameras": 27,
+                "CountryCode": "CN",
+                "Country": "中国",
+                "RtmpActiveCameras": 62,
+                "ActiveUsers": 8
+            },
+            {
+                "Province": "天津",
+                "UdpActiveCameras": 26,
+                "CountryCode": "CN",
+                "Country": "中国",
+                "RtmpActiveCameras": 98,
+                "ActiveUsers": 18
+            },
+            {
+                "Province": "江西",
+                "UdpActiveCameras": 13,
+                "CountryCode": "CN",
+                "Country": "中国",
+                "RtmpActiveCameras": 55,
+                "ActiveUsers": 7
+            },
+            {
+                "Province": "西藏",
+                "UdpActiveCameras": 0,
+                "CountryCode": "CN",
+                "Country": "中国",
+                "RtmpActiveCameras": 1,
+                "ActiveUsers": 0
+            },
+            {
+                "Province": "黑龙江",
+                "UdpActiveCameras": 10,
+                "CountryCode": "CN",
+                "Country": "中国",
+                "RtmpActiveCameras": 21,
+                "ActiveUsers": 2
+            },
+            {
+                "Province": "广东",
+                "UdpActiveCameras": 194,
+                "CountryCode": "CN",
+                "Country": "中国",
+                "RtmpActiveCameras": 600,
+                "ActiveUsers": 92
+            },
+            {
+                "Province": "云南",
+                "UdpActiveCameras": 6,
+                "CountryCode": "CN",
+                "Country": "中国",
+                "RtmpActiveCameras": 19,
+                "ActiveUsers": 1
+            },
+            {
+                "Province": "北京",
+                "UdpActiveCameras": 144,
+                "CountryCode": "CN",
+                "Country": "中国",
+                "RtmpActiveCameras": 351,
+                "ActiveUsers": 60
+            },
+            {
+                "Province": "台湾",
+                "UdpActiveCameras": 0,
+                "CountryCode": "TW",
+                "Country": "中国",
+                "RtmpActiveCameras": 5,
+                "ActiveUsers": 1
+            },
+            {
+                "Province": "澳门",
+                "UdpActiveCameras": 0,
+                "CountryCode": "MO",
+                "Country": "中国",
+                "RtmpActiveCameras": 0,
+                "ActiveUsers": 1
+            },
+            {
+                "Province": "广西",
+                "UdpActiveCameras": 26,
+                "CountryCode": "CN",
+                "Country": "中国",
+                "RtmpActiveCameras": 62,
+                "ActiveUsers": 3
+            },
+            {
+                "Province": "陕西",
+                "UdpActiveCameras": 21,
+                "CountryCode": "CN",
+                "Country": "中国",
+                "RtmpActiveCameras": 58,
+                "ActiveUsers": 16
+            },
+            {
+                "Province": "甘肃",
+                "UdpActiveCameras": 4,
+                "CountryCode": "CN",
+                "Country": "中国",
+                "RtmpActiveCameras": 12,
+                "ActiveUsers": 1
+            },
+            {
+                "Province": "河北",
+                "UdpActiveCameras": 36,
+                "CountryCode": "CN",
+                "Country": "中国",
+                "RtmpActiveCameras": 89,
+                "ActiveUsers": 39
+            },
+            {
+                "Province": "吉林",
+                "UdpActiveCameras": 11,
+                "CountryCode": "CN",
+                "Country": "中国",
+                "RtmpActiveCameras": 17,
+                "ActiveUsers": 38
+            },
+            {
+                "Province": "重庆",
+                "UdpActiveCameras": 10,
+                "CountryCode": "CN",
+                "Country": "中国",
+                "RtmpActiveCameras": 37,
+                "ActiveUsers": 4
+            },
+            {
+                "Province": "宁夏",
+                "UdpActiveCameras": 0,
+                "CountryCode": "CN",
+                "Country": "中国",
+                "RtmpActiveCameras": 1,
+                "ActiveUsers": 1
+            },
+            {
+                "Province": "湖南",
+                "UdpActiveCameras": 36,
+                "CountryCode": "CN",
+                "Country": "中国",
+                "RtmpActiveCameras": 56,
+                "ActiveUsers": 7
+            },
+            {
+                "Province": "安徽",
+                "UdpActiveCameras": 35,
+                "CountryCode": "CN",
+                "Country": "中国",
+                "RtmpActiveCameras": 41,
+                "ActiveUsers": 6
+            },
+            {
+                "Province": "内蒙古",
+                "UdpActiveCameras": 6,
+                "CountryCode": "CN",
+                "Country": "中国",
+                "RtmpActiveCameras": 36,
+                "ActiveUsers": 5
+            },
+            {
+                "Province": "上海",
+                "UdpActiveCameras": 89,
+                "CountryCode": "CN",
+                "Country": "中国",
+                "RtmpActiveCameras": 316,
+                "ActiveUsers": 23
+            },
+            {
+                "Province": "山西",
+                "UdpActiveCameras": 32,
+                "CountryCode": "CN",
+                "Country": "中国",
+                "RtmpActiveCameras": 132,
+                "ActiveUsers": 16
+            },
+            {
+                "Province": "海南",
+                "UdpActiveCameras": 3,
+                "CountryCode": "CN",
+                "Country": "中国",
+                "RtmpActiveCameras": 21,
+                "ActiveUsers": 1
+            },
+            {
+                "Province": "辽宁",
+                "UdpActiveCameras": 20,
+                "CountryCode": "CN",
+                "Country": "中国",
+                "RtmpActiveCameras": 54,
+                "ActiveUsers": 27
+            }
+        ]
+    }
+}
